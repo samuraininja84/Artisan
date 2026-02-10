@@ -1,0 +1,182 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  text-align: center;
+  line-height: 1.25;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  background-image: url('Images/paper.png');
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: local;
+  background-color: whitesmoke;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 200px 200px;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Playwrite DE Grund Guides", cursive;
+}
+
+p {
+  font-family: "Playwrite DE Grund Guides", cursive;
+  line-height: 2;
+}
+
+ol {
+  font-family: "Playwrite DE Grund Guides", cursive;
+  line-height: 2;
+  text-align: left;
+  padding-right: 30px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  width: 10%;
+  line-height: 1.25;
+  text-align: center;
+  padding-right: 30px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Unvisited Link */
+a:link {
+  color: orangered;
+}
+
+/* Visited Link */
+a:visited {
+  color: black;
+  text-decoration: line-through;
+}
+
+/* Mouse Over Link */
+a:hover {
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+/* Selected Link */
+a:active {
+  color: blue;
+}
+
+img {
+  width: 20%;
+  float: center; 
+  margin: 0;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(178, 178, 178, 0.15);
+}
+
+/* Image Alignment */
+.left {
+  float:left; 
+}
+
+.center {
+  float:center; 
+}
+
+.right {
+  float:right; 
+}
+
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+/* Image Animation */
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.icon {
+  filter: invert();
+}
+
+.center {
+  filter: invert();
+  float: center;
+  animation-name: slideDown;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; /* Retain final state after animation */
+}
+
+.forward {
+  filter: invert();
+  float: right;
+  animation-name: slideOut;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; /* Retain final state after animation */
+}
+
+.back {
+  filter: invert();
+  float: left;
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; /* Retain final state after animation */
+}
