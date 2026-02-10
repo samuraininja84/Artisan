@@ -1,2 +1,2 @@
-# Artisan-Website
+# Artisan
 A Portfolio Website For Professional Display
