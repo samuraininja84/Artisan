@@ -1,2 +1,2 @@
 # Artisan
-WIP Portfolio Website For Professional Display
+A Portfolio Website For Professional Display
