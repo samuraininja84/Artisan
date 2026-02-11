@@ -39,7 +39,7 @@ A Portfolio Website For Professional Display
 * * *
 <!-- [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
 [<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)-->
+[<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) -->
 [<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
 [<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84)
 [<img src="./assets/images/socials/discord.png" width="35"/>](https://discord.gg/jfUSqM3ygx)
