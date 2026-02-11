@@ -1,8 +1,6 @@
 # Artisan
 A Portfolio Website For Professional Display
 
-<br>
-
 # Featured Games
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
@@ -21,8 +19,6 @@ A Portfolio Website For Professional Display
 | English                                          | English                                          | English                                          |
 | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) |
 
-<br>
-
 # Open-Source Tools
 (Also Used In Above Unity Projects)
 
@@ -31,9 +27,6 @@ A Portfolio Website For Professional Display
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
 *   [Puppeteer : Framework For Taking Control From The Player](https://github.com/samuraininja84/Puppeteer)
 
-<br>
-<br>
-<br>
 <br>
 
 * * *
