@@ -3,17 +3,8 @@ layout: default
 ---
 
 # Links To Socials
-| Instagram | Blue Sky | Twitter | Itch.io | Github | Discord |
-| :--- | :--- | :--- | :--- | :--- | :--- |
 | [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84) | [<img src="./assets/images/socials/discord.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) |
-
-| [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
-| :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
-| [Dwalm](https://samura1n1ja84.itch.io/dwalm)     | [Fowl Intent](https://samura1n1ja84.itch.io/fowl-intent) | [Rewired](https://samura1n1ja84.itch.io/rewired) |
-| A narrative-heavy 3D platformer set within a Dream-Intertwined City | A FPS-Platformer But With Chickens | A Journey To Get Your Memories Back From A Compromised Therapist |
-| Platformer                                       | Action                                           | Adventure                                        |
-| English, Spanish, Italian, French, German, Portuguese, Arabic, Korean, Japanese, Chinese | English  | English                                          |
-| ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 
 # Featured Games
 
