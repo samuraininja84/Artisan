@@ -5,14 +5,6 @@ layout: default
 # Artisan
 A Portfolio Website For Professional Display
 
-# Links To Socials
-<!-- [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)-->
-[<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84)
-[<img src="./assets/images/socials/discord.png" width="35"/>](https://discord.gg/jfUSqM3ygx)
-
 # Featured Games
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
@@ -38,3 +30,11 @@ A Portfolio Website For Professional Display
 *   [World Shaper : Scene Management Framework For Adventure-based Games](https://github.com/samuraininja84/WorldShaper)
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
 *   [Puppeteer : Framework For Taking Control From The Player](https://github.com/samuraininja84/Puppeteer)
+
+* * *
+<!-- [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
+[<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
+[<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)-->
+[<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
+[<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84)
+[<img src="./assets/images/socials/discord.png" width="35"/>](https://discord.gg/jfUSqM3ygx)
