@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Artisan
-A Portfolio Website For Professional Display
+WIP Portfolio Website
 
 <br>
 
