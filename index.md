@@ -2,6 +2,9 @@
 layout: default
 ---
 
+# Artisan
+A Portfolio Website For Professional Display
+
 # Links To Socials
 <!-- [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
 [<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
