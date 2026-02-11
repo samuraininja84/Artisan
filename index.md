@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
 # Artisan
 WIP Portfolio Website
 
