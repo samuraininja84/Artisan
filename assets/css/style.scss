@@ -10,7 +10,11 @@ h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
 }
 
-li, ol {
+ul li {
+    color: $blood-red;
+}
+
+ol li {
     color: $blood-red;
 }
 
