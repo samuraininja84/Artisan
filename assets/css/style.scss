@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
 }
 
-ul li {
+ul, ol {
     color: $blood-red;
 }
 
-ol li {
-    color: $blood-red;
+th, hr {
+    border-bottom: 1px dashed $blood-red;
 }
 
 table {
@@ -31,10 +31,6 @@ table {
 /* Add a hover effect to single cells in the table */
 tr td:hover {
     background-color: $blood-red;
-}
-
-th, hr {
-    border-bottom: 1px dashed $blood-red;
 }
 
 .button-container {
