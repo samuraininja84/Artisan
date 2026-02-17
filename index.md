@@ -9,9 +9,9 @@ layout: default
 <!-- Change Tabs To Use Pop Ups -->
 
 <div class="button-container">
-    <button class="transparent-button">About Me</button>
-    <button class="transparent-button">Games</button>
-    <button class="transparent-button">Open-Source Tools</button>
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Games</button>
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Open-Source Tools</button>
 </div>
 
 <br>

@@ -20,7 +20,6 @@ ol li {
 
 table {
     color: $blood-red;
-    background-color: $blood-red;
 }
 
 hr {
@@ -31,6 +30,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center; 
+  gap: 20px; 
 }
 
 .transparent-button {
