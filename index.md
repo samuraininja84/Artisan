@@ -8,6 +8,7 @@ layout: default
 
 <!-- Change Tabs To Use Pop Ups -->
 
+<!--
 <div class="button-container">
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Games</button>
@@ -15,6 +16,7 @@ layout: default
 </div>
 
 <br>
+-->
 
 # About Me
 
