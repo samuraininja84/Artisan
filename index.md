@@ -14,6 +14,8 @@ layout: default
     <button class="transparent-button">Open-Source Tools</button>
 </div>
 
+<br>
+
 # About Me
 
 <!-- Write Artist Statement -->
