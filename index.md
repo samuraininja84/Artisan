@@ -8,7 +8,13 @@ layout: default
 
 <!-- Change Tabs To Use Pop Ups -->
 
-<button class="transparent-button">Random Motorcycle</button>
+<div class="button-container">
+    <button class="transparent-button">Random Motorcycle</button>
+    <button class="transparent-button">Random Motorcycle</button>
+    <button class="transparent-button">Random Motorcycle</button>
+    <button class="transparent-button">Random Motorcycle</button>
+    <button class="transparent-button">Random Motorcycle</button>
+</div>
 
 # About Me
 
@@ -19,8 +25,6 @@ layout: default
 <!-- Add Food Pictures (?) -->
 
 # Games
-
-
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |

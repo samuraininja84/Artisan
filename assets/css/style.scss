@@ -18,8 +18,18 @@ ol li {
     color: $blood-red;
 }
 
+table {
+    border: 1px solid $blood-red;
+}
+
 hr {
     background-color: $blood-red;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .transparent-button {
