@@ -7,5 +7,9 @@
 @import "{{ site.theme }}";
 
 body {
-    background: #0a0011;
+    background: #1a002e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7d000f;
 }
