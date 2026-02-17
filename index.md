@@ -3,9 +3,33 @@ layout: default
 ---
 
 # Artisan
-WIP Portfolio Website
 
-# Featured Games
+<!-- Create Header Image -->
+
+# About Me
+
+<!-- Write Artist Statement -->
+
+<!-- Add DOB, General Location, & Contact Information -->
+
+<!-- Add Food Pictures (?) -->
+
+# Games
+
+<!-- Trigger button -->
+<button onclick="togglePopup()">Open Popup</button>
+
+<!-- Popup container and overlay -->
+<div class="popup-overlay" id="popupOverlay">
+    <div class="popup-content">
+        <h2>My Popup Title</h2>
+        <p>This is the content of the popup.</p>
+        <button onclick="togglePopup()">Close</button>
+    </div>
+</div>
+
+
+<!-- Change Tabs To Use Pop Ups -->
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
