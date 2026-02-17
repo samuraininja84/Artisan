@@ -5,6 +5,11 @@
 @import "{{ site.theme }}";
 
 $blood-red: #9c0003;
+$snow-white: #fffafa;
+
+body {
+    color: $snow-white;
+}
 
 h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
@@ -19,11 +24,16 @@ ol li {
 }
 
 table {
-    color: $blood-red;
+    color: $snow-white;
+}
+
+tr:hover {
+    background-color: $blood-red;
 }
 
 hr {
     background-color: $blood-red;
+    border-bottom: 1px dashed $blood-red;
 }
 
 .button-container {
