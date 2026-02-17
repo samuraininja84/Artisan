@@ -6,7 +6,29 @@ layout: default
 
 <!-- Create Header Image -->
 
+<!-- Change Tabs To Use Pop Ups -->
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openContent(event, 'London')">London</button>
+    <button class="tablinks" onclick="openContent(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openContent(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Default Link -->
+<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
 # About Me
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
 
 <!-- Write Artist Statement -->
 
@@ -27,36 +49,9 @@ layout: default
 </div>
 -->
 
-<!-- Change Tabs To Use Pop Ups -->
-
-<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
 <div id="Paris" class="tabcontent">
   <h3>Paris</h3>
   <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
 </div>
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
@@ -78,6 +73,12 @@ document.getElementById("defaultOpen").click();
 <br>
 
 # Open-Source Tools
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
 (Also Used In Above Unity Projects)
 
 *   [Thimble : Wrapper For Yarn Spinner For Unity](https://github.com/samuraininja84/Thimble)
