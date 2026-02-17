@@ -9,11 +9,9 @@ layout: default
 <!-- Change Tabs To Use Pop Ups -->
 
 <div class="button-container">
-    <button class="transparent-button">Random Motorcycle</button>
-    <button class="transparent-button">Random Motorcycle</button>
-    <button class="transparent-button">Random Motorcycle</button>
-    <button class="transparent-button">Random Motorcycle</button>
-    <button class="transparent-button">Random Motorcycle</button>
+    <button class="transparent-button">About Me</button>
+    <button class="transparent-button">Games</button>
+    <button class="transparent-button">Open-Source Tools</button>
 </div>
 
 # About Me
