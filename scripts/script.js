@@ -1,29 +1,22 @@
+// Set the font size of the h2 element to 2vw
+document.getElementsByTagName("h2")[0].style.fontSize = "2vw";
+
+// An array to store the text
+const texts = [];
+
+// Get the getText function from the server and store the text in the 'texts' array
+const generateButton = document.getElementById("generateText");
+const displayParagraph = document.getElementById("hiddenText");
+
+// Fetch the text from the file and store it in the 'texts' array
+generateButton.addEventListener("click", () => {
+  const randomIndex = Math.floor(Math.random() * texts.length);
+  displayParagraph.textContent = texts[randomIndex];
+});
+
 // Function to toggle the 'active' class on the popup overlay
 function togglePopup() 
 {
     var popup = document.getElementById("popupOverlay");
     popup.classList.toggle("active");
-}
-
-// Function to handle tab switching
-function openContent(evt, contentName) 
-{
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(contentName).style.display = "block";
-    evt.currentTarget.className += " active";
 }

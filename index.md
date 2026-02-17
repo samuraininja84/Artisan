@@ -8,27 +8,9 @@ layout: default
 
 <!-- Change Tabs To Use Pop Ups -->
 
-<!-- Tab links -->
-<div class="tab">
-    <button class="tablinks" onclick="openContent(event, 'London')">London</button>
-    <button class="tablinks" onclick="openContent(event, 'Paris')">Paris</button>
-    <button class="tablinks" onclick="openContent(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Default Link -->
-<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-
-<script>
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
+<button class="transparent-button">Random Motorcycle</button>
 
 # About Me
-
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
 
 <!-- Write Artist Statement -->
 
@@ -38,21 +20,7 @@ layout: default
 
 # Games
 
-<!-- Popup container and overlay 
-<button onclick="togglePopup()">Games</button>
-<div class="popup-overlay" id="popupOverlay">
-    <div class="popup-content">
-        <h2>My Popup Title</h2>
-        <p>This is the content of the popup.</p>
-        <button onclick="togglePopup()">Close</button>
-    </div>
-</div>
--->
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
@@ -73,12 +41,6 @@ layout: default
 <br>
 
 # Open-Source Tools
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
 (Also Used In Above Unity Projects)
 
 *   [Thimble : Wrapper For Yarn Spinner For Unity](https://github.com/samuraininja84/Thimble)
