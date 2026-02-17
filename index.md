@@ -31,6 +31,11 @@ layout: default
 
 <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
 
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">London</button>
@@ -53,11 +58,6 @@ layout: default
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
-
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
