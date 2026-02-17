@@ -4,6 +4,7 @@
 
 @import "{{ site.theme }}";
 
+$dark-purple: #0d0016;
 $blood-red: #9c0003;
 $snow-white: #fffafa;
 
@@ -27,7 +28,8 @@ table {
     color: $snow-white;
 }
 
-tr:hover {
+/* Add a hover effect to single cells in the table */
+tr td:hover {
     background-color: $blood-red;
 }
 
@@ -45,8 +47,8 @@ th, hr {
 .transparent-button {
   /* Core styles */
   background: transparent; /* Makes the background transparent */
-  color: white; /* Sets the text color to white */
-  border: 2px solid white; /* Adds a solid white border */
+  color: $snow-white; /* Sets the text color to white */
+  border: 2px solid $snow-white; /* Adds a solid white border */
   border-radius: 8px; /* Optional: for rounded corners */
   padding: 12px 24px; /* Space inside the button */
   font-size: 16px;
@@ -57,8 +59,8 @@ th, hr {
 
 /* Hover and active effects */
 .transparent-button:hover {
-  background: white; /* Fills the background with white on hover */
-  color: #333; /* Changes the text color to a dark color on hover */
+  background: $blood-red; /* Fills the background with blood red on hover */
+  color: $dark-purple; /* Changes the text color to a dark color on hover */
 }
 
 .transparent-button:active {
@@ -66,7 +68,7 @@ th, hr {
 }
 
 #hiddenText {
-  color: white;
+  color: $snow-white;
   font-size: 16px;
 }
 
