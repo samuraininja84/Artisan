@@ -17,8 +17,8 @@ generateButton.addEventListener("click", () => {
 // Function to toggle the 'active' class on the popup overlay
 function togglePopup() 
 {
-    var popup = document.getElementById("popupOverlay");
-    popup.classList.toggle("active");
+  var popup = document.getElementById("popupOverlay");
+  popup.classList.toggle("active");
 }
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -30,3 +30,38 @@ function toggleTopNav() {
     x.className = "topnav";
   }
 }
+
+// Intersection Observer to highlight the active section in the navigation menu
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.page-section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const options = {
+        root: null, // observe intersections with the viewport
+        rootMargin: '0px',
+        threshold: 0.5 // trigger when 50% of the section is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Remove 'active' class from all links
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+
+                // Add 'active' class to the corresponding link
+                const currentSectionId = entry.target.id;
+                const correspondingLink = document.querySelector(`.nav-link[href="#${currentSectionId}"]`);
+                if (correspondingLink) {
+                    correspondingLink.classList.add('active');
+                }
+            }
+        });
+    }, options);
+
+    // Observe all sections
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});

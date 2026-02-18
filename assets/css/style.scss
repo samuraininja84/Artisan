@@ -58,6 +58,69 @@ tr td:hover {
   gap: 20px; 
 }
 
+
+
+/* Smooth scrolling when clicking anchor links */
+html {
+    scroll-behavior: smooth;
+    /* Add padding to the top of the body to prevent fixed navbar from overlapping content */
+    padding-top: 60px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style for the active link (will be added by JavaScript) */
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.page-section {
+    padding: 100px 0 50px;
+    /* Give sections different colors for visibility */
+    min-height: 100vh;
+}
+
+#section1 { background-color: #f4f4f4; }
+#section2 { background-color: #e9e9e9; }
+#section3 { background-color: #ddd; }
+#section4 { background-color: #ccc; }
+
+
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;

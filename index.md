@@ -17,14 +17,45 @@ layout: default
 -->
 
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#Artisan" class="active">Home</a>
+  <a href="#About Me">About Me</a>
+  <a href="#Games">Games</a>
+  <a href="#Tools">Tools</a>
   <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#section1" class="nav-link">Section 1</a></li>
+        <li><a href="#section2" class="nav-link">Section 2</a></li>
+        <li><a href="#section3" class="nav-link">Section 3</a></li>
+        <li><a href="#section4" class="nav-link">Section 4</a></li>
+    </ul>
+</nav>
+
+<!-- Page Content Sections -->
+<section id="section1" class="page-section">
+    <h2>Section 1</h2>
+    <p>Content for section 1...</p>
+</section>
+
+<section id="section2" class="page-section">
+    <h2>Section 2</h2>
+    <p>Content for section 2...</p>
+</section>
+
+<section id="section3" class="page-section">
+    <h2>Section 3</h2>
+    <p>Content for section 3...</p>
+</section>
+
+<section id="section4" class="page-section">
+    <h2>Section 4</h2>
+    <p>Content for section 4...</p>
+</section>
 
 <br>
 
