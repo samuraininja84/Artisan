@@ -14,12 +14,6 @@ generateButton.addEventListener("click", () => {
   displayParagraph.textContent = texts[randomIndex];
 });
 
-// Function to toggle a sidebar
-function toggleSidebar() {
-  var sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("active");
-}
-
 // Function to toggle the 'active' class on the popup overlay
 function togglePopup() {
   var popup = document.getElementById("popupOverlay");
@@ -71,3 +65,17 @@ navLinks.forEach(link => {
         });
     });
 });
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "white";
+}

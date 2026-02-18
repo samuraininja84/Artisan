@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- Navigation Bar -->
+<!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
         <li><a href="#Home" class="nav-link">Home</a></li>
@@ -13,6 +13,18 @@ layout: default
         <i class="fa fa-bars"></i></li>
     </ul>
 </nav>
+
+<!-- Side Navigation Bar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
 
 <section id="Home" class="page-section"></section>
 

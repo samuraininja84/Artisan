@@ -64,6 +64,41 @@ tr td:hover {
   width: 50%; /* Adjust the width as needed */
 }
 
+.transparent-button {
+  /* Core styles */
+  background: transparent; /* Makes the background transparent */
+  color: $snow-white; /* Sets the text color to white */
+  border: 2px solid $snow-white; /* Adds a solid white border */
+  border-radius: 8px; /* Optional: for rounded corners */
+  padding: 12px 24px; /* Space inside the button */
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover and active effects */
+.transparent-button:hover {
+  background: $blood-red; /* Fills the background with blood red on hover */
+  color: $snow-white; /* Changes the text color to a dark color on hover */
+}
+
+.transparent-button:active {
+  transform: scale(0.98); /* Makes the button look like it's being pressed */
+}
+
+#hiddenText {
+  color: $snow-white;
+  font-size: 16px;
+}
+
+/* Animation for the fade-in effect */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Styles for navigation and sections */
 
 /* Smooth scrolling when clicking anchor links */
 html {
@@ -156,32 +191,54 @@ This class makes the navbar look good on small screens (display the links vertic
   }
 }
 
-.transparent-button {
-  /* Core styles */
-  background: transparent; /* Makes the background transparent */
-  color: $snow-white; /* Sets the text color to white */
-  border: 2px solid $snow-white; /* Adds a solid white border */
-  border-radius: 8px; /* Optional: for rounded corners */
-  padding: 12px 24px; /* Space inside the button */
-  font-size: 16px;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-/* Hover and active effects */
-.transparent-button:hover {
-  background: $blood-red; /* Fills the background with blood red on hover */
-  color: $snow-white; /* Changes the text color to a dark color on hover */
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-.transparent-button:active {
-  transform: scale(0.98); /* Makes the button look like it's being pressed */
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
-#hiddenText {
-  color: $snow-white;
-  font-size: 16px;
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 /* The overlay covers the entire screen */
@@ -214,10 +271,4 @@ This class makes the navbar look good on small screens (display the links vertic
 /* Class to make the popup visible */
 .popup-overlay.active {
     display: block;
-}
-
-/* Animation for the fade-in effect */
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
 }
