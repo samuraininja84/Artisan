@@ -26,11 +26,24 @@ layout: default
 
 <section id="About Me" class="page-section"></section>
 
-<!-- Write Artist Statement -->
+<!-- Contact Information -->
 
-<!-- Add DOB, General Location, & Contact Information -->
+<div>
+    <p>(347)576-8034</p>
+    <a href="aaronplunkett2@gmail.com">Email</a>
+</div>
 
-<!-- Add Food Pictures (?) -->
+<!-- Artist Statement -->
+
+<h6>Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.</h6>
+
+<!-- DOB & General Location -->
+
+<h6>Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.</h6>
+
+<!-- Food Pictures (?) -->
+
+<!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
 # Games
 
