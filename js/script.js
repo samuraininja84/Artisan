@@ -63,6 +63,7 @@ function closeNav() {
   document.body.style.backgroundColor = "white";
 }
 
+/* Toggle the side navigation open and closed */
 function toggleNav() {
     if (sideNav.style.width === size + "px") {
         closeNav();
