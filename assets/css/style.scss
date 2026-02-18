@@ -16,8 +16,13 @@ h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
 }
 
-ul, ol {
-    color: $blood-red;
+/* Apply the filter to all list items to change the color to a blood red shade */
+ul li {
+  filter: hue-rotate(180deg) saturate(200%) brightness(150%);
+}
+
+ul li::before {
+  color: $blood-red;
 }
 
 th, hr {
@@ -56,7 +61,7 @@ tr td:hover {
 /* Hover and active effects */
 .transparent-button:hover {
   background: $blood-red; /* Fills the background with blood red on hover */
-  color: $dark-purple; /* Changes the text color to a dark color on hover */
+  color: $snow-white; /* Changes the text color to a dark color on hover */
 }
 
 .transparent-button:active {
@@ -67,6 +72,17 @@ tr td:hover {
   color: $snow-white;
   font-size: 16px;
 }
+
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
 
 /* The overlay covers the entire screen */
 .popup-overlay {
