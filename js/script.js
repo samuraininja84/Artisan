@@ -45,13 +45,15 @@ navLinks.forEach(link => {
 });
 
 // Get the open and close buttons for the side navigation
-var openButton = document.getElementById("openButton");
+var toggleButton = document.getElementById("toggleButton");
 var closeButton = document.getElementById("closeButton");
 var sideNav = document.getElementById("mySidenav");
 
+const size = 250; 
+
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
-  sideNav.style.width = "250px";
+  sideNav.style.width = size + "px";
   document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
@@ -61,8 +63,16 @@ function closeNav() {
   document.body.style.backgroundColor = "white";
 }
 
+function toggleNav() {
+    if (sideNav.style.width === size + "px") {
+        closeNav();
+    } else {
+        openNav();
+    }
+}
+
 // Event listeners for opening and closing the side navigation
-openButton.addEventListener("click", openNav);
+toggleButton.addEventListener("click", toggleNav);
 closeButton.addEventListener("click", closeNav);
 
 // Function to toggle the 'active' class on the popup overlay
