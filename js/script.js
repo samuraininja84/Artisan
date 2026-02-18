@@ -50,8 +50,11 @@ var closeButton = document.getElementById("closeButton");
 var sideNav = document.getElementById("mySidenav");
 var mainContent = document.getElementById("main");
 
+// Store the original left margin of the main content to reset it when closing the side navigation
+var originalMainMarginLeft = window.getComputedStyle(mainContent).marginLeft;
+
+// Define the width of the side navigation
 const size = 250; 
-const padding = 50;
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
@@ -63,7 +66,7 @@ function openNav() {
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
     sideNav.style.width = "0";
-    mainContent.style.marginLeft = (size + padding) + "px";
+    mainContent.style.marginLeft = originalMainMarginLeft;
     document.body.style.backgroundColor = "white";
 }
 
