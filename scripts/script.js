@@ -76,14 +76,16 @@ openButton.addEventListener("click", openNav);
 closeButton.addEventListener("click", closeNav);
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-function openNav() {
+function openNav(event) {
+  event.preventDefault(); // Prevent default link behavior
   alert("Opened side navigation");  
   sideNav.style.width = "250px";
   document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-function closeNav() {
+function closeNav(event) {
+  event.preventDefault(); // Prevent default link behavior
   alert("Closed side navigation");  
   sideNav.style.width = "0";
   document.body.style.backgroundColor = "white";
