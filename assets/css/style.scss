@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Apply the filter to all list items to change the color from green to red */
 ul li {
     color: $snow-white; /* Set the text color to white */
-    filter: hue-rotate(120deg); /* Rotate the hue to change green to red */
+    filter: hue-rotate(180deg) saturate(200%) brightness(150%);
 }
 
 ul li::before {
