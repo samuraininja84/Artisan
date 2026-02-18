@@ -47,6 +47,11 @@ navLinks.forEach(link => {
     });
 });
 
+// Get the open and close buttons for the side navigation
+var openButton = document.getElementById("openButton");
+var closeButton = document.getElementById("closeButton");
+var sideNav = document.getElementById("mySidenav");
+
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
   alert("Opened side navigation");  
@@ -60,11 +65,6 @@ function closeNav() {
   sideNav.style.width = "0";
   document.body.style.backgroundColor = "white";
 }
-
-// Get the open and close buttons for the side navigation
-var openButton = document.getElementById("openButton");
-var closeButton = document.getElementById("closeButton");
-var sideNav = document.getElementById("mySidenav");
 
 // Event listeners for opening and closing the side navigation
 openButton.addEventListener("click", openNav);
