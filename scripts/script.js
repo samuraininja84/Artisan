@@ -2,25 +2,6 @@
 const sections = document.querySelectorAll('.page-section');
 const navLinks = document.querySelectorAll('.nav-link');
 
-// Listen for the scroll event
-window.addEventListener('scroll', onScroll);
-
-// Call on load to set the initial active link
-document.addEventListener('DOMContentLoaded', onScroll);
-
-// Optional: Smooth scrolling for link clicks
-navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetSection = document.querySelector(targetId);
-        window.scrollTo({
-            top: targetSection.offsetTop - 50, // Adjust offset for smooth scroll
-            behavior: 'smooth'
-        });
-    });
-});
-
 // Function to handle scroll events
 function onScroll() {
     // Get current scroll position
@@ -44,6 +25,25 @@ function onScroll() {
     });
 }
 
+// Listen for the scroll event
+window.addEventListener('scroll', onScroll);
+
+// Call on load to set the initial active link
+document.addEventListener('DOMContentLoaded', onScroll);
+
+// Optional: Smooth scrolling for link clicks
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        window.scrollTo({
+            top: targetSection.offsetTop - 50, // Adjust offset for smooth scroll
+            behavior: 'smooth'
+        });
+    });
+});
+
 // Set the font size of the h2 element to 2vw
 document.getElementsByTagName("h2")[0].style.fontSize = "2vw";
 
@@ -61,8 +61,7 @@ generateButton.addEventListener("click", () => {
 });
 
 // Function to toggle the 'active' class on the popup overlay
-function togglePopup() 
-{
+function togglePopup() {
   var popup = document.getElementById("popupOverlay");
   popup.classList.toggle("active");
 }
