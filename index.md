@@ -16,16 +16,6 @@ layout: default
 </div>
 -->
 
-<div class="topnav" id="myTopnav">
-  <a href="#Artisan" class="active">Home</a>
-  <a href="#About Me">About Me</a>
-  <a href="#Games">Games</a>
-  <a href="#Tools">Tools</a>
-  <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
 <!-- Navigation Bar -->
 <nav class="navbar">
     <ul>
