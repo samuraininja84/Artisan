@@ -57,6 +57,18 @@ tr td:hover {
   gap: 20px; 
 }
 
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Adjust the width as needed */
+}
+
+.container {
+  text-align: center;
+}
+
+
 /* Smooth scrolling when clicking anchor links */
 html {
     scroll-behavior: smooth;
