@@ -53,14 +53,14 @@ const size = 250;
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
-  sideNav.style.width = size + "px";
-  document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
+    sideNav.style.width = size + "px";
+    document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
-  sideNav.style.width = "0";
-  document.body.style.backgroundColor = "white";
+    sideNav.style.width = "0";
+    document.body.style.backgroundColor = "white";
 }
 
 /* Toggle the side navigation open and closed */
