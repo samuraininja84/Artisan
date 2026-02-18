@@ -5,7 +5,7 @@ layout: default
 <!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
-        <li><a href="javascript:void(0)" class="closebtn" onclick="openNav()"><i class="fa fa-bars"></a></li> 
+        <li><a href="javascript:void(0)" class="closebtn" onclick="openNav()"><i class="fa fa-bars"></i></a></li> 
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
