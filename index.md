@@ -9,8 +9,8 @@ layout: default
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
-    <i class="fa fa-bars"></i>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
+    <i class="fa fa-bars"></i> -->
     </ul>
 </nav>
 
