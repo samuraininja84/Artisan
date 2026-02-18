@@ -29,9 +29,11 @@ layout: default
 <!-- Contact Information -->
 
 <div>
-    <p>(347)576-8034</p>
-    <a href="aaronplunkett2@gmail.com">Email</a>
+    <h6>(347)576-8034</h6>
+    <h6><a href="aaronplunkett2@gmail.com">Email</a></h6>
 </div>
+
+<br>
 
 <!-- Artist Statement -->
 
