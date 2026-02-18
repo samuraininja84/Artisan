@@ -237,18 +237,6 @@ This class makes the navbar look good on small screens (display the links vertic
   transition: 0.3s;
 }
 
-/* Remove default list styles from sidenav items */
-.sidenav ul li {
-    list-style-image: none;
-    list-style-type: none;
-}
-
-/* Remove default list hover effect */
-.navbar ul li:hover {
-    transition: none;
-    transform: none;
-}
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
@@ -260,12 +248,12 @@ This class makes the navbar look good on small screens (display the links vertic
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-right .5s;
+  transition: margin-left .5s;
   padding: 20px;
 }
 

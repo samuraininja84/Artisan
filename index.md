@@ -15,13 +15,11 @@ layout: default
 
 <!-- Side Navigation Bar -->
 <div id="mySidenav" class="sidenav">
-    <ul>
-        <li><button type="button" id="closeButton" class="closebtn">&times;</button></li>    
-        <li><a href="#Home" class="nav-link">Home</a></li>
-        <li><a href="#About Me" class="nav-link">About Me</a></li>
-        <li><a href="#Games" class="nav-link">Games</a></li>
-        <li><a href="#Tools" class="nav-link">Tools</a></li>
-    </ul>
+    <button type="button" id="closeButton" class="closebtn">&times;</button>
+    <a href="#Home" class="nav-link">Home</a>
+    <a href="#About Me" class="nav-link">About Me</a>
+    <a href="#Games" class="nav-link">Games</a>
+    <a href="#Tools" class="nav-link">Tools</a>
 </div>
 
 <section id="Home" class="page-section"></section>
