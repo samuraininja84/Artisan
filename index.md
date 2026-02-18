@@ -8,11 +8,22 @@ layout: default
 
 <!-- Change Tabs To Use Pop Ups -->
 
-
+<!--
 <div class="button-container">
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Games</button>
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Open-Source Tools</button> 
+</div>
+-->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 
 <br>
