@@ -9,13 +9,13 @@ layout: default
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
-        <li><button class="icon" type="button" onclick="openNav()"><i class="fa fa-bars"></i></button></li>
+        <li><button class="icon" type="button" onmousedown="openNav()"><i class="fa fa-bars"></i></button></li>
     </ul>
 </nav>
 
 <!-- Side Navigation Bar -->
 <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" onmousedown="closeNav()">&times;</a>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
     <a href="#Games" class="nav-link">Games</a>
@@ -36,18 +36,17 @@ layout: default
 
 <!-- Contact Information -->
 
-<div>
-    <h5>(347)576-8034</h5>
-    <h5>aaronplunkett2@gmail.com</h5>
-</div>
+Phone: (347)576-8034
+
+Email: aaronplunkett2@gmail.com
 
 <!-- Artist Statement -->
 
-<h5>Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.</h5>
+Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.
 
 <!-- DOB & General Location -->
 
-<h5>Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.</h5>
+Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.
 
 <!-- Food Pictures (?) -->
 
