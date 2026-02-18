@@ -5,13 +5,16 @@ layout: default
 <!-- Navigation Bar -->
 <div>
     <nav class="navbar">
-        <a href="#About Me" class="nav-link">Section 1</a>
-        <a href="#Games" class="nav-link">Section 3</a>
-        <a href="#Tools" class="nav-link">Section 4</a>
+        <a href="#Home" class="nav-link">Home</a>
+        <a href="#About Me" class="nav-link">About Me</a>
+        <a href="#Games" class="nav-link">Games</a>
+        <a href="#Tools" class="nav-link">Tools</a>
     </nav>
 </div>
 
 # Artisan
+
+<section id="Home" class="page-section"></section>
 
 <!-- Create Header Image -->
 
