@@ -7,7 +7,7 @@ layout: default
     <ul>
         <li><button type="button" id="toggleButton" class="button"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
-        <li><a href="#About Me" class="nav-link">About Me</a></li>
+        <li><a href="#AboutMe" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
     </ul>
@@ -18,7 +18,7 @@ layout: default
     <button type="button" id="closeButton" class="button">&times;</button>
     <hr>
     <a href="#Home" class="nav-link">Home</a>
-    <a href="#About Me" class="nav-link">About Me</a>
+    <a href="#AboutMe" class="nav-link">About Me</a>
     <a href="#Games" class="nav-link">Games</a>
     <a href="#Tools" class="nav-link">Tools</a>
 </nav>
@@ -31,7 +31,7 @@ layout: default
 
 <!-- Add Pop Ups Tabs For Other Content-->
 
-<section id="About Me" class="page-section"></section>
+<section id="AboutMe" class="page-section"></section>
 
 # About Me
 
