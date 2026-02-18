@@ -66,6 +66,7 @@ navLinks.forEach(link => {
     });
 });
 
+// Event listeners for opening and closing the side navigation
 document.getElementById("openButton").addEventListener("click", openNav);
 document.getElementById("closeButton").addEventListener("click", closeNav);
 
