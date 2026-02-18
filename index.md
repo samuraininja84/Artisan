@@ -5,7 +5,7 @@ layout: default
 <!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
-        <li><button type="button" class="openButton"><i class="fa fa-bars"></i></button></li>    
+        <li><button type="button" id="openButton" class="button"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
@@ -14,8 +14,8 @@ layout: default
 </nav>
 
 <!-- Side Navigation Bar -->
-<div id="sidenav" class="sidenav">
-    <button type="button" class="closeButton">&times;</button>
+<div id="mySidenav" class="sidenav">
+    <button type="button" id="closeButton" class="button">&times;</button>
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
@@ -37,9 +37,9 @@ layout: default
 
 <!-- Contact Information -->
 
-Phone: (347)576-8034
+Phone: <a href="tel:+13475768034">(347)576-8034 </a>
 
-Email: aaronplunkett2@gmail.com
+Email: <a href="mailto:aaronplunkett2@gmail.com">aaronplunkett2@gmail.com</a>
 
 <!-- Artist Statement -->
 
