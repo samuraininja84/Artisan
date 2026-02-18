@@ -160,7 +160,7 @@ html {
     color: $snow-white;
 }
 
-.navbar button {
+.navbar .closeButton {
     border: none;
     cursor: pointer;
     outline: none;    
@@ -173,12 +173,12 @@ html {
     transition: background-color 0.3s;
 }
 
-.navbar button:hover {
+.navbar .closeButton:hover {
     background-color: $snow-white;
     color: $dark-purple;
 }
 
-.navbar button.active {
+.navbar .closeButton.active {
     background-color: $blood-red;
     color: $snow-white;
 }

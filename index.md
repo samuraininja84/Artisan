@@ -5,7 +5,7 @@ layout: default
 <!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
-        <li><button type="button" id="openButton" class="button"><i class="fa fa-bars"></i></button></li>    
+        <li><button type="button" class="openButton"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
@@ -14,8 +14,8 @@ layout: default
 </nav>
 
 <!-- Side Navigation Bar -->
-<div id="mySidenav" class="sidenav">
-    <button type="button" id="closeButton" class="button">&times; Close</button>
+<div id="sidenav" class="sidenav">
+    <button type="button" class="closeButton">&times;</button>
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
