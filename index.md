@@ -20,9 +20,9 @@ layout: default
 
 <!-- Change Tabs To Use Pop Ups -->
 
-<section id="About Me" class="page-section"></section>
-
 # About Me
+
+<section id="About Me" class="page-section"></section>
 
 <!-- Write Artist Statement -->
 
@@ -30,9 +30,9 @@ layout: default
 
 <!-- Add Food Pictures (?) -->
 
-<section id="Games" class="page-section"></section>
-
 # Games
+
+<section id="Games" class="page-section"></section>
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
@@ -52,9 +52,9 @@ layout: default
 
 <br>
 
-<section id="Tools" class="page-section"></section>
-
 # Open-Source Tools
+
+<section id="Tools" class="page-section"></section>
 
 (Also Used In Above Unity Projects)
 
