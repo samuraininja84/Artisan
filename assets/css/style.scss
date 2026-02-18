@@ -191,7 +191,7 @@ html {
 Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px)
 {
-    .navbar ul li:not(:first-child) {display: none;}
+    .navbar ul li:not(:last-child) {display: none;}
     .navbar ul li.icon {
         float: right;
         display: block;
