@@ -1,6 +1,3 @@
-// At the top of your script.js file
-console.log("JS file loaded successfully!");
-
 // Get all sections and nav links
 const sections = document.querySelectorAll('.page-section');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -54,14 +51,12 @@ var sideNav = document.getElementById("mySidenav");
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
-  alert("Opened side navigation");  
   sideNav.style.width = "250px";
   document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
-  alert("Closed side navigation");  
   sideNav.style.width = "0";
   document.body.style.backgroundColor = "white";
 }
