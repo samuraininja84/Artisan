@@ -58,8 +58,6 @@ tr td:hover {
   gap: 20px; 
 }
 
-
-
 /* Smooth scrolling when clicking anchor links */
 html {
     scroll-behavior: smooth;
@@ -107,7 +105,7 @@ html {
 }
 
 .page-section {
-    padding: 100px 0 50px;
+    padding: 0px 0 0px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
