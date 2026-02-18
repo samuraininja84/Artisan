@@ -29,19 +29,17 @@ layout: default
 <!-- Contact Information -->
 
 <div>
-    <h6>(347)576-8034</h6>
-    <h6><a href="aaronplunkett2@gmail.com">Email</a></h6>
+    <h5>(347)576-8034</h5>
+    <h5><a href="aaronplunkett2@gmail.com">Email</a></h5>
 </div>
-
-<br>
 
 <!-- Artist Statement -->
 
-<h6>Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.</h6>
+<h5>Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.</h5>
 
 <!-- DOB & General Location -->
 
-<h6>Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.</h6>
+<h5>Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.</h5>
 
 <!-- Food Pictures (?) -->
 
