@@ -74,12 +74,14 @@ html {
 }
 
 .navbar ul {
+    list-style-image: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .navbar ul li {
+    list-style-image: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -87,6 +89,12 @@ html {
 
 .navbar li {
     float: left;
+}
+
+/* Remove default list hover effect */
+.navbar ul li:hover {
+    transition: none; /* Remove transition for the list item */
+    transform: none; /* Remove transform for the list item */
 }
 
 .navbar a {
