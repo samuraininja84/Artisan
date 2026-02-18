@@ -12,7 +12,7 @@ layout: default
         <li><a href="#Tools" class="nav-link">Tools</a></li>
     </ul>
 </nav>
-
+v
 <!-- Side Navigation Bar -->
 <nav id="mySidenav" class="sidenav">
     <button type="button" id="closeButton" class="button">&times;</button>
@@ -24,6 +24,8 @@ layout: default
 </nav>
 
 <section id="Home" class="page-section"></section>
+
+<button onclick="window.location.href='https://www.google.com'">Go to Google</button>
 
 <!-- Create Header Image -->
 
