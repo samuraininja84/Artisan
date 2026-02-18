@@ -5,7 +5,7 @@ layout: default
 <!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
-        <li><a href="javascript:void(0)" class="closebtn"><i class="fa fa-bars"></i></a></li> 
+        <li><a href="#Side Bar" class="closebtn"><i class="fa fa-bars"></i></a></li> 
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
@@ -15,7 +15,7 @@ layout: default
 
 <!-- Side Navigation Bar -->
 <nav id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#Side Bar" class="closebtn">&times;</a>
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
