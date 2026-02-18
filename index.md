@@ -17,14 +17,14 @@ layout: default
 -->
 
 <!-- Navigation Bar -->
-<nav class="navbar">
-    <ul>
-        <li><a href="#section1" class="nav-link">Section 1</a></li>
-        <li><a href="#section2" class="nav-link">Section 2</a></li>
-        <li><a href="#section3" class="nav-link">Section 3</a></li>
-        <li><a href="#section4" class="nav-link">Section 4</a></li>
-    </ul>
-</nav>
+<div>
+    <nav class="navbar">
+        <a href="#section1" class="nav-link">Section 1</a>
+        <a href="#section2" class="nav-link">Section 2</a>
+        <a href="#section3" class="nav-link">Section 3</a>
+        <a href="#section4" class="nav-link">Section 4</a>
+    </nav>
+</div>
 
 <!-- Page Content Sections -->
 <section id="section1" class="page-section">
