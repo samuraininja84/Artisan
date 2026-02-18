@@ -168,7 +168,6 @@ html {
     color: $snow-white;
     background-color: $dark-purple;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
@@ -230,7 +229,7 @@ This class makes the navbar look good on small screens (display the links vertic
   left: 0;
   background-color: $dark-purple;
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 /* The navigation menu links */
@@ -238,14 +237,31 @@ This class makes the navbar look good on small screens (display the links vertic
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: $snow-white;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: $blood-red;
+}
+
+.sidenav button {
+    border: none;
+    cursor: pointer;
+    outline: none;    
+    display: block;
+    color: $snow-white;
+    background-color: $dark-purple;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+}
+
+.sidenav button:hover {
+    color: $blood-red;
 }
 
 /* Position and style the close button (top right corner) */
