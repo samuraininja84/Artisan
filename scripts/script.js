@@ -1,3 +1,6 @@
+// At the top of your script.js file
+console.log("JS file loaded successfully!");
+
 // Set the font size of the h2 element to 2vw
 document.getElementsByTagName("h2")[0].style.fontSize = "2vw";
 
