@@ -15,7 +15,7 @@ layout: default
 
 <!-- Side Navigation Bar -->
 <div id="mySidenav" class="sidenav">
-    <button class="mini-transparent-button" type="button" class="closebtn" id="closeButton">&times;</button>
+    <button class="mini-transparent-button" type="button" id="closeButton">&times;</button>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
     <a href="#Games" class="nav-link">Games</a>

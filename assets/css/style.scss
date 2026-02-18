@@ -99,11 +99,6 @@ tr td:hover {
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center; 
 }
 
 /* Hover and active effects */
@@ -187,6 +182,12 @@ html {
 .navbar a.active {
     background-color: $blood-red;
     color: $snow-white;
+}
+
+.navbar button {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 .page-section {
