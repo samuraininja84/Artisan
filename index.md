@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: production
 ---
 
 <!-- Top Navigation Bar -->
