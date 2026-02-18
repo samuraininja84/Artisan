@@ -5,11 +5,11 @@ layout: default
 <!-- Top Navigation Bar -->
 <nav class="navbar">
     <ul>
+        <li><button type="button" id="openButton" class="button"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
-        <li><button type="button" id="openButton" class="button"><i class="fa fa-bars"></i></button></li>
     </ul>
 </nav>
 

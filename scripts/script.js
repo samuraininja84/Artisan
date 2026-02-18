@@ -69,6 +69,8 @@ navLinks.forEach(link => {
 // Get the open and close buttons for the side navigation
 const openButton = document.getElementById("openButton");
 const closeButton = document.getElementById("closeButton");
+const sideNav = document.getElementById("mySidenav");
+//const mainContent = document.getElementById("main");
 
 // Event listeners for opening and closing the side navigation
 openButton.addEventListener("click", openNav);
@@ -77,15 +79,15 @@ closeButton.addEventListener("click", closeNav);
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
   alert("Opened side navigation");  
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  sideNav.style.width = "250px";
+  //mainContent.style.marginLeft = "250px";
+  //document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
   alert("Closed side navigation");  
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-  document.body.style.backgroundColor = "white";
+  sideNav.style.width = "0";
+  //mainContent.style.marginLeft = "0";
+  //document.body.style.backgroundColor = "white";
 }
