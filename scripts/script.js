@@ -46,32 +46,3 @@ navLinks.forEach(link => {
         });
     });
 });
-
-// Get the open and close buttons for the side navigation
-var openButton = document.getElementById("openButton");
-var closeButton = document.getElementById("closeButton");
-var sideNav = document.getElementById("mySidenav");
-
-/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-function openNav() {
-  alert("Opened side navigation");  
-  sideNav.style.width = "250px";
-  document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
-}
-
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-function closeNav() {
-  alert("Closed side navigation");  
-  sideNav.style.width = "0";
-  document.body.style.backgroundColor = "white";
-}
-
-// Event listeners for opening and closing the side navigation
-openButton.addEventListener("click", openNav);
-closeButton.addEventListener("click", closeNav);
-
-// Function to toggle the 'active' class on the popup overlay
-function togglePopup() {
-  var popup = document.getElementById("popupOverlay");
-  popup.classList.toggle("active");
-}
