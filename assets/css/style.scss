@@ -169,6 +169,7 @@ html {
     background-color: $dark-purple;
     text-align: center;
     text-decoration: none;
+    padding: 14px 16px;
     transition: background-color 0.3s;
 }
 
@@ -252,6 +253,7 @@ This class makes the navbar look good on small screens (display the links vertic
     cursor: pointer;
     outline: none;    
     display: block;
+    font-size: 25px;
     color: $snow-white;
     background-color: $dark-purple;
     text-align: center;
