@@ -25,11 +25,9 @@ layout: production
 
 <section id="Home" class="page-section"></section>
 
-<!-- Create Header Image -->
+<!-- Header Image -->
 
 <div><img class= "centered-image" src="favicon.ico" alt="Header"></div>
-
-<!-- Add Pop Ups Tabs For Other Content-->
 
 <section id="AboutMe" class="page-section"></section>
 
@@ -55,7 +53,11 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 
 <section id="Games" class="page-section"></section>
 
+<!-- Add Pop Ups Tabs For Non-Programming Content -->
+
 # Games
+
+<!-- Add Hover Pop Ups For Games Like In Steam -->
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
