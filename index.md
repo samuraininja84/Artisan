@@ -18,9 +18,7 @@ layout: default
 
 <!-- Create Header Image -->
 
-<div class="container">
-  <img class= "centered-image" src="favicon.ico" alt="Header">
-</div>
+<div><img class= "centered-image" src="favicon.ico" alt="Header"></div>
 
 <!-- Add Pop Ups Tabs For Other Content-->
 
