@@ -19,7 +19,6 @@ $snow-white: #fffafa;
 .huerotate { filter: hue-rotate(180deg); }
 .rss.opacity { filter: opacity(50%); }
 
-
 body {
     color: $snow-white;
 }
@@ -67,17 +66,20 @@ html {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: $dark-purple;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
 }
 
 .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -89,7 +91,7 @@ html {
 
 .navbar a {
     display: block;
-    color: white;
+    color: $snow-white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -97,14 +99,14 @@ html {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: $snow-white;
+    color: $dark-purple;
 }
 
 /* Style for the active link (will be added by JavaScript) */
 .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: $blood-red;
+    color: $snow-white;
 }
 
 .page-section {
