@@ -21,6 +21,14 @@ ul li {
     text-shadow: 0 0 2px $blood-red;
 }
 
+ul li:hover {
+    color: $blood-red;
+
+    /* Add a hover effect to list items that moves the item slightly to the right */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+    transform: translateX(5px); /* Move the item 5px to the right on hover */
+}
+
 th, hr {
     border-bottom: 1px dashed $blood-red;
 }
