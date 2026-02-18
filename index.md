@@ -9,22 +9,18 @@ layout: default
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
-        <!-- <li><a href="javascript:void(0);" class="icon" onclick="toggleSidebar()">
-        <i class="fa fa-bars"></i></li> -->
+        <li><button class="icon" type="button" onclick="openNav()"><i class="fa fa-bars"></i></button></li>
     </ul>
 </nav>
 
 <!-- Side Navigation Bar -->
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#Home" class="nav-link">Home</a>
+    <a href="#About Me" class="nav-link">About Me</a>
+    <a href="#Games" class="nav-link">Games</a>
+    <a href="#Tools" class="nav-link">Tools</a>
 </div>
-
-<!-- Use any element to open the sidenav -->
-<span onclick="openNav()">open</span>
 
 <section id="Home" class="page-section"></section>
 
@@ -42,7 +38,7 @@ layout: default
 
 <div>
     <h5>(347)576-8034</h5>
-    <h5><a href="aaronplunkett2@gmail.com">Email</a></h5>
+    <h5>aaronplunkett2@gmail.com</h5>
 </div>
 
 <!-- Artist Statement -->
