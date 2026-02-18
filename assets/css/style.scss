@@ -161,6 +161,9 @@ html {
 }
 
 .navbar button {
+    border: none;
+    cursor: pointer;
+    outline: none;    
     display: block;
     color: $snow-white;
     background-color: $dark-purple;
