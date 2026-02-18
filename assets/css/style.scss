@@ -16,10 +16,8 @@ h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
 }
 
-/* Apply the filter to all list items to change the color to a blood red shade */
 ul li {
-    content: ">>"; /* Use a custom character (like a bullet point) */
-    color: $blood-red;   /* Color the custom content */
+    list-style-image:url('../images/icons/bullet.png');
 }
 
 th, hr {
