@@ -14,6 +14,18 @@ generateButton.addEventListener("click", () => {
   displayParagraph.textContent = texts[randomIndex];
 });
 
+// Function to toggle a sidebar
+function toggleSidebar() {
+  var sidebar = document.getElementById("sidebar");
+  sidebar.classList.toggle("active");
+}
+
+// Function to toggle the 'active' class on the popup overlay
+function togglePopup() {
+  var popup = document.getElementById("popupOverlay");
+  popup.classList.toggle("active");
+}
+
 // Get all sections and nav links
 const sections = document.querySelectorAll('.page-section');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -59,15 +71,3 @@ navLinks.forEach(link => {
         });
     });
 });
-
-// Function to toggle the 'active' class on the popup overlay
-function togglePopup() {
-  var popup = document.getElementById("popupOverlay");
-  popup.classList.toggle("active");
-}
-
-// Function to toggle a sidebar
-function toggleSidebar() {
-  var sidebar = document.getElementById("sidebar");
-  sidebar.classList.toggle("active");
-}
