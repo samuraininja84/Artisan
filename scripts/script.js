@@ -53,7 +53,7 @@ window.addEventListener('scroll', onScroll);
 // Call on load to set the initial active link
 document.addEventListener('DOMContentLoaded', onScroll);
 
-// Optional: Smooth scrolling for link clicks
+// Set up smooth scrolling for nav links
 navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -87,9 +87,9 @@ function closeNav() {
 // Toggle the side navigation when the toggle button is clicked
 function toggleSidenav() {
   if (sideNav.style.width === "250px") {
-    closeNav(event);
+    closeNav();
   } else {
-    openNav(event);
+    openNav();
   }
 }
 
