@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul li {
     list-style-image:url('../images/icons/bullet.png');
+    text-shadow: 0 0 2px $blood-red;
 }
 
 th, hr {
@@ -43,8 +44,8 @@ tr td:hover {
 .transparent-button {
   /* Core styles */
   background: transparent; /* Makes the background transparent */
-  color: $snow-white; /* Sets the text color to white */
-  border: 2px solid $snow-white; /* Adds a solid white border */
+  color: $blood-red; /* Sets the text color to white */
+  border: 2px solid $blood-red; /* Adds a solid white border */
   border-radius: 8px; /* Optional: for rounded corners */
   padding: 12px 24px; /* Space inside the button */
   font-size: 16px;
@@ -55,8 +56,8 @@ tr td:hover {
 
 /* Hover and active effects */
 .transparent-button:hover {
-  background: $blood-red; /* Fills the background with blood red on hover */
-  color: $snow-white; /* Changes the text color to a dark color on hover */
+  background: $snow-white; /* Fills the background with snow white on hover */
+  color: $blood-red; /* Changes the text color to blood red on hover */
 }
 
 .transparent-button:active {
