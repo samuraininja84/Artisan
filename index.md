@@ -9,24 +9,16 @@ layout: default
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
+    <i class="fa fa-bars"></i>
     </ul>
 </nav>
-
-# Artisan
 
 <section id="Home" class="page-section"></section>
 
 <!-- Create Header Image -->
 
 <!-- Change Tabs To Use Pop Ups -->
-
-<!--
-<div class="button-container">
-    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
-    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Games</button>
-    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Open-Source Tools</button> 
-</div>
--->
 
 # About Me
 
@@ -82,3 +74,11 @@ layout: default
 [<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io)
 [<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84)
 [<img src="./assets/images/socials/discord.png" width="35"/>](https://discord.gg/jfUSqM3ygx)
+
+<!--
+<div class="button-container">
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Games</button>
+    <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Open-Source Tools</button> 
+</div>
+-->
