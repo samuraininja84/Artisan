@@ -24,7 +24,7 @@ layout: default
 
 <section id="Home" class="page-section"></section>
 
-<button class="transparent-button" onclick="click1234()">login1234</button>
+<button class="transparent-button" onclick="click1234()">login1234</button><button class="transparent-button" onclick="click1234()">login1234</button><button class="transparent-button" onclick="click1234()">login1234</button><button class="transparent-button" onclick="click1234()">login1234</button>
 
 <!-- Create Header Image -->
 
