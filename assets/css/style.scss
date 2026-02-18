@@ -16,7 +16,12 @@ h1, h2, h3, h4, h5, h6 {
     color: $blood-red;
 }
 
-/* Apply the filter to all list items to change the color to a blood red shade */
+/* Apply the filter to all list items to change the color from green to red */
+ul li {
+    color: $snow-white; /* Set the text color to white */
+    filter: hue-rotate(120deg); /* Rotate the hue to change green to red */
+}
+
 ul li::before {
   color: $blood-red;
 }
