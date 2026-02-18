@@ -27,7 +27,7 @@ layout: production
 
 <!-- Header Image -->
 
-<div><img class= "centered-image" src="favicon.ico" alt="Header"></div>
+<div><img class= "header-image" src="favicon.ico" alt="Header"></div>
 
 <section id="AboutMe" class="page-section"></section>
 
