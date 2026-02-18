@@ -4,7 +4,7 @@
 
 @import "{{ site.theme }}";
 
-$dark-purple: #0d0016;
+$dark-purple: #020003;
 $blood-red: #9c0003;
 $snow-white: #fffafa;
 
@@ -66,7 +66,7 @@ html {
 
 .navbar {
     overflow: hidden;
-    background-color: transparent;
+    background-color: $dark-purple;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
