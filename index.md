@@ -14,14 +14,14 @@ layout: default
 </nav>
 
 <!-- Side Navigation Bar -->
-<div id="mySidenav" class="sidenav">
+<nav id="mySidenav" class="sidenav">
     <button type="button" id="closeButton" class="button">&times;</button>
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
     <a href="#Games" class="nav-link">Games</a>
     <a href="#Tools" class="nav-link">Tools</a>
-</div>
+</nav>
 
 <section id="Home" class="page-section"></section>
 
