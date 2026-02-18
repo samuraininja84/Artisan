@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<!-- Navigation Bar -->
+<div>
+    <nav class="navbar">
+        <a href="#About Me" class="nav-link">Section 1</a>
+        <a href="#Games" class="nav-link">Section 3</a>
+        <a href="#Tools" class="nav-link">Section 4</a>
+    </nav>
+</div>
+
 # Artisan
 
 <!-- Create Header Image -->
@@ -16,40 +25,9 @@ layout: default
 </div>
 -->
 
-<!-- Navigation Bar -->
-<div>
-    <nav class="navbar">
-        <a href="#section1" class="nav-link">Section 1</a>
-        <a href="#section2" class="nav-link">Section 2</a>
-        <a href="#section3" class="nav-link">Section 3</a>
-        <a href="#section4" class="nav-link">Section 4</a>
-    </nav>
-</div>
-
-<!-- Page Content Sections -->
-<section id="section1" class="page-section">
-    <h2>Section 1</h2>
-    <p>Content for section 1...</p>
-</section>
-
-<section id="section2" class="page-section">
-    <h2>Section 2</h2>
-    <p>Content for section 2...</p>
-</section>
-
-<section id="section3" class="page-section">
-    <h2>Section 3</h2>
-    <p>Content for section 3...</p>
-</section>
-
-<section id="section4" class="page-section">
-    <h2>Section 4</h2>
-    <p>Content for section 4...</p>
-</section>
-
-<br>
-
 # About Me
+
+<section id="About Me" class="page-section"></section>
 
 <!-- Write Artist Statement -->
 
@@ -58,6 +36,8 @@ layout: default
 <!-- Add Food Pictures (?) -->
 
 # Games
+
+<section id="Games" class="page-section"></section>
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
@@ -78,6 +58,9 @@ layout: default
 <br>
 
 # Open-Source Tools
+
+<section id="Tools" class="page-section"></section>
+
 (Also Used In Above Unity Projects)
 
 *   [Thimble : Wrapper For Yarn Spinner For Unity](https://github.com/samuraininja84/Thimble)
