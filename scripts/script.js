@@ -66,13 +66,14 @@ navLinks.forEach(link => {
     });
 });
 
-// Get the open and close buttons for the side navigation
+
+/* //Get the open and close buttons for the side navigation
 const openButton = document.getElementById("openButton");
 const closeButton = document.getElementById("closeButton");
 
 // Event listeners for opening and closing the side navigation
 openButton.addEventListener("click", openNav);
-closeButton.addEventListener("click", closeNav);
+closeButton.addEventListener("click", closeNav);*/
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
