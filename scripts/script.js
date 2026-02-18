@@ -67,9 +67,9 @@ navLinks.forEach(link => {
 });
 
 // Get the open and close buttons for the side navigation
-const openButton = document.getElementById("openButton");
-const closeButton = document.getElementById("closeButton");
-const sideNav = document.getElementById("mySidenav");
+var openButton = document.getElementById("openButton");
+var closeButton = document.getElementById("closeButton");
+var sideNav = document.getElementById("mySidenav");
 
 // Event listeners for opening and closing the side navigation
 openButton.addEventListener("click", openNav);

@@ -25,9 +25,6 @@ layout: default
 
 <section id="Home" class="page-section"></section>
 
-<button onclick="openNav()">Open</button>
-<button onclick="closeNav()">Open</button>
-
 <!-- Create Header Image -->
 
 <div><img class= "centered-image" src="favicon.ico" alt="Header"></div>
