@@ -1,3 +1,49 @@
+// Get all sections and nav links
+const sections = document.querySelectorAll('.page-section');
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Listen for the scroll event
+window.addEventListener('scroll', onScroll);
+
+// Call on load to set the initial active link
+document.addEventListener('DOMContentLoaded', onScroll);
+
+// Optional: Smooth scrolling for link clicks
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        window.scrollTo({
+            top: targetSection.offsetTop - 50, // Adjust offset for smooth scroll
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Function to handle scroll events
+function onScroll() {
+    // Get current scroll position
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    // Loop through each section to check if it's in the viewport
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 60; // Offset for fixed header height
+        const sectionBottom = sectionTop + section.offsetHeight;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            // Remove 'active' class from all links
+            navLinks.forEach(link => link.classList.remove('active'));
+
+            // Add 'active' class to the current section's link
+            const currentLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
+            if (currentLink) {
+                currentLink.classList.add('active');
+            }
+        }
+    });
+}
+
 // Set the font size of the h2 element to 2vw
 document.getElementsByTagName("h2")[0].style.fontSize = "2vw";
 
@@ -20,48 +66,3 @@ function togglePopup()
   var popup = document.getElementById("popupOverlay");
   popup.classList.toggle("active");
 }
-
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function toggleTopNav() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-// Intersection Observer to highlight the active section in the navigation menu
-document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('.page-section');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    const options = {
-        root: null, // observe intersections with the viewport
-        rootMargin: '0px',
-        threshold: 0.5 // trigger when 50% of the section is visible
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                // Remove 'active' class from all links
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                });
-
-                // Add 'active' class to the corresponding link
-                const currentSectionId = entry.target.id;
-                const correspondingLink = document.querySelector(`.nav-link[href="#${currentSectionId}"]`);
-                if (correspondingLink) {
-                    correspondingLink.classList.add('active');
-                }
-            }
-        });
-    }, options);
-
-    // Observe all sections
-    sections.forEach(section => {
-        observer.observe(section);
-    });
-});
