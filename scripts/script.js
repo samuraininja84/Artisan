@@ -70,15 +70,6 @@ navLinks.forEach(link => {
 const openButton = document.getElementById("openButton");
 const closeButton = document.getElementById("closeButton");
 
-// Log if the buttons are found
-if (openButton) {
-  console.log("Open button found");
-}
-
-if (closeButton) {
-  console.log("Close button found");
-}
-
 // Event listeners for opening and closing the side navigation
 openButton.addEventListener("click", openNav);
 closeButton.addEventListener("click", closeNav);
@@ -97,4 +88,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
   document.body.style.backgroundColor = "white";
+}
+
+function click1234() {
+    alert('hi')
 }

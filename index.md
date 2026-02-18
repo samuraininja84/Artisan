@@ -24,6 +24,8 @@ layout: default
 
 <section id="Home" class="page-section"></section>
 
+<button class="transparent-button" onclick="click1234()">login1234</button>
+
 <!-- Create Header Image -->
 
 <div><img class= "centered-image" src="favicon.ico" alt="Header"></div>
