@@ -31,9 +31,9 @@ layout: default
 
 <!-- Add Pop Ups Tabs For Other Content-->
 
-# About Me
-
 <section id="About Me" class="page-section"></section>
+
+# About Me
 
 <!-- Contact Information -->
 
@@ -53,9 +53,9 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 
 <!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
-# Games
-
 <section id="Games" class="page-section"></section>
+
+# Games
 
 | [<img src="./assets/images/covers/dwalm-cover.png" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
@@ -75,9 +75,9 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 
 <br>
 
-# Open-Source Tools
-
 <section id="Tools" class="page-section"></section>
+
+# Open-Source Tools
 
 (Also Used In Above Unity Projects)
 
