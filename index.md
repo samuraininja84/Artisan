@@ -9,13 +9,13 @@ layout: default
         <li><a href="#About Me" class="nav-link">About Me</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
-        <li><a type="button" id="openButton" class="button"><i class="fa fa-bars"></i></a></li>
+        <li><button type="button" id="openButton" class="button"><i class="fa fa-bars"></i></button></li>
     </ul>
 </nav>
 
 <!-- Side Navigation Bar -->
 <div id="mySidenav" class="sidenav">
-    <a type="button" id="closeButton" class="button">&times;</a>
+    <button type="button" id="closeButton" class="button">&times;</button>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#About Me" class="nav-link">About Me</a>
     <a href="#Games" class="nav-link">Games</a>
