@@ -304,7 +304,6 @@ This class makes the navbar look good on small screens (display the links vertic
 .popup-content {
     visibility: hidden; /* Hides the element visually */
     opacity: 0; /* Makes the element transparent */
-    width: 150px;
     background-color: $snow-white;
     color: $dark-gray;
     text-align: center;
@@ -328,6 +327,7 @@ This class makes the navbar look good on small screens (display the links vertic
   /* Define the container's dimensions */
   width: 80%;
   max-width: 600px;
+  height: 150px; /* Optional: define a height for the container */
   border: 1px solid $snow-white;
   padding: 10px;
   overflow-x: auto;   /* Add the horizontal scroll bar */
