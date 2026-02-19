@@ -75,7 +75,6 @@ Other than playing games, I like to spend my free time either skateboarding or p
         <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
         <img src="./assets/images/food/corn.jpg" class="food-image"/>
         <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
-        <img src="./assets/images/food/corn.jpg" class="food-image"/>
         <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
         <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
         <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
