@@ -35,10 +35,6 @@ layout: production
 
 # About Me
 
-<!-- Contact Information -->
-
-Email: <a href="mailto:aaronplunkett2@gmail.com">aaronplunkett2@gmail.com</a>
-
 <!-- Artist Statement -->
 
 Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.
