@@ -27,7 +27,7 @@ layout: production
 
 <!-- Header Image -->
 
-<div><img class="header-image" src="favicon.ico" alt="Header"></div>
+<div><img class= "header-image" src="favicon.ico" alt="Header"></div>
 
 <section id="AboutMe" class="page-section"></section>
 
@@ -47,25 +47,33 @@ Programmer looking to make the team’s work easier by developing tools to strea
 
 Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.
 
-<!-- Food Pictures (?) -->
-
+<!-- Hover Test
 <div class="hover-trigger">
-    Food Pictures Here:
+    Hover over me
     <span class="popup-content">
         <div class="scroll-container">
             <div class="content-wrapper">
-                <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
-                <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
-                <img src="./assets/images/food/corn.jpg" class="food-image"/>
-                <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
-                <img src="./assets/images/food/corn.jpg" class="food-image"/>
-                <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
-                <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
-                <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
-                <img src="./assets/images/food/steak.jpg" class="food-image"/>
+                <p>This is a long line of text that will trigger a horizontal scroll bar if the container is narrow enough.
+                You can also use a series of inline-block elements like cards or images for a gallery.</p>
             </div>
         </div>
     </span>
+</div> -->
+
+<!-- Food Pictures -->
+
+<div class="scroll-container">
+    <div class="content-wrapper">
+        <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
+        <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
+        <img src="./assets/images/food/corn.jpg" class="food-image"/>
+        <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
+        <img src="./assets/images/food/corn.jpg" class="food-image"/>
+        <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
+        <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
+        <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
+        <img src="./assets/images/food/steak.jpg" class="food-image"/>
+    </div>
 </div>
 
 <!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
