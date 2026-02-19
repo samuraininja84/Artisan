@@ -56,17 +56,20 @@ var originalMainMarginLeft = window.getComputedStyle(mainContent).marginLeft;
 // Define the width of the side navigation
 const size = 250; 
 
+// Media query to check if the screen width is 600px or less
+var smallScreenQuery = window.matchMedia("(max-width: 600px)");
+
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
     sideNav.style.width = size + "px";
-    mainContent.style.marginLeft = (size * 2) + "px";
+    if (!smallScreenQuery.matches) mainContent.style.marginLeft = (size * 2) + "px";
     document.body.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
     sideNav.style.width = "0";
-    mainContent.style.marginLeft = originalMainMarginLeft;
+    mainContent.style.marginLeft = originalMainMarginLeft;    
     document.body.style.backgroundColor = "white";
 }
 
