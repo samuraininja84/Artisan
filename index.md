@@ -69,7 +69,7 @@ Other than playing games, I like to spend my free time either skateboarding or p
 
 <section id="Food" class="page-section"></section>
 
-# Food Pictures
+# Food
 
 <div class="scroll-container">
     <div class="content-wrapper">
