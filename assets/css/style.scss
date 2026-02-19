@@ -71,18 +71,19 @@ tr td:hover {
     width: 700px;
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     margin: 10px;
-    border: 2px solid $snow-white; /* Adds a white border around the images */
+    border: 2px solid $blood-red; /* Adds a white border around the images */
     border-radius: 8px; /* Adds rounded corners */
 }
 
 
 .food-image {
+    height: 200px;    
     width: 200px;
-    height: 200px;
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     margin-right: 10px; /* Adds space between images */
     border: 2px solid $snow-white; /* Adds a white border around the images */
     border-radius: 8px; /* Adds rounded corners */
+    border-style: dashed; /* Makes the border dashed */
     transition: transform 0.3s; /* Smooth transition for hover effect */
 }
 
