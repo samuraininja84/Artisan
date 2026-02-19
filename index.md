@@ -37,8 +37,6 @@ layout: production
 
 <!-- Contact Information -->
 
-Phone: <a href="tel:+13475768034">(347)576-8034 </a>
-
 Email: <a href="mailto:aaronplunkett2@gmail.com">aaronplunkett2@gmail.com</a>
 
 <!-- Artist Statement -->
