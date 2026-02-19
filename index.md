@@ -122,18 +122,6 @@ Other than playing games, I like to spend my free time either skateboarding or p
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
 *   [Puppeteer : Framework For Taking Control From The Player](https://github.com/samuraininja84/Puppeteer)
 
-<br>
-<br>
-
-* * *
-
-<!-- [<img src="./assets/images/socials/instagram.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/blue_sky.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm)
-[<img src="./assets/images/socials/twitter.png" width="35"/>](https://samura1n1ja84.itch.io/dwalm) -->
-[<img src="./assets/images/socials/itch_io.png" width="35"/>](https://samura1n1ja84.itch.io)
-[<img src="./assets/images/socials/github.png" width="35"/>](https://github.com/samuraininja84)
-[<img src="./assets/images/socials/discord.png" width="35"/>](https://discord.gg/jfUSqM3ygx)
-
 <!--
 <div class="button-container">
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">About Me</button>
