@@ -81,7 +81,7 @@ tr td:hover {
     width: 200px;
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     margin-right: 10px; /* Adds space between images */
-    border: 2px dashed $snow-white; /* Adds a dashed white border around the images */
+    border: 2px solid $snow-white; /* Adds a dashed white border around the images */
     border-radius: 8px; /* Adds rounded corners */
     transition: transform 0.3s; /* Smooth transition for hover effect */
 }
