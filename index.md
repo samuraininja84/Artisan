@@ -8,6 +8,7 @@ layout: production
         <li><button type="button" id="toggleButton" class="button"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#AboutMe" class="nav-link">About Me</a></li>
+        <li><a href="#Food" class="nav-link">Food</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
     </ul>
@@ -19,6 +20,7 @@ layout: production
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#AboutMe" class="nav-link">About Me</a>
+    <a href="#Food" class="nav-link">Food</a>
     <a href="#Games" class="nav-link">Games</a>
     <a href="#Tools" class="nav-link">Tools</a>
 </nav>
@@ -61,6 +63,8 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 </div> -->
 
 <!-- Food Pictures -->
+
+<section id="Food" class="page-section"></section>
 
 <div class="scroll-container">
     <div class="content-wrapper">
