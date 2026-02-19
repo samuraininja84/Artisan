@@ -327,7 +327,7 @@ This class makes the navbar look good on small screens (display the links vertic
 .scroll-container {
     /* Define the container's dimensions */
     height: auto;
-    max-width: 400px;    
+    max-width: 400px;
     padding: 10px;
     overflow-x: auto;   /* Add the horizontal scroll bar */
     white-space: nowrap;   /* Prevents text from wrapping onto a new line, ensuring horizontal overflow */
@@ -337,3 +337,9 @@ This class makes the navbar look good on small screens (display the links vertic
     display: inline-block;
 }
 
+.food-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin-right: 10px; /* Adds space between images */
+}

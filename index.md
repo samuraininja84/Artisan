@@ -27,7 +27,7 @@ layout: production
 
 <!-- Header Image -->
 
-<div><img class= "header-image" src="favicon.ico" alt="Header"></div>
+<div><img class="header-image" src="favicon.ico" alt="Header"></div>
 
 <section id="AboutMe" class="page-section"></section>
 
@@ -55,14 +55,14 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
         <div class="scroll-container">
             <div class="content-wrapper">
                 <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
-                <img src="./assets/images/food/chicken_noodle.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/corn.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/full_plate.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/corn.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/jerk_chicken.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/lamb_chops.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/rice_platter.jpg" height="400" width="400"/>
-                <img src="./assets/images/food/steak.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
+                <img src="./assets/images/food/corn.jpg" class="food-image"/>
+                <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
+                <img src="./assets/images/food/corn.jpg" class="food-image"/>
+                <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
+                <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
+                <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
+                <img src="./assets/images/food/steak.jpg" class="food-image"/>
             </div>
         </div>
     </span>
