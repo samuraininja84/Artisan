@@ -326,7 +326,7 @@ This class makes the navbar look good on small screens (display the links vertic
 .scroll-container {
     /* Define the container's dimensions */
     max-width: 400px;
-    height: 150px; /* Optional: define a height for the container */
+    height: auto;
     border: 1px solid $snow-white;
     padding: 10px;
     overflow-x: auto;   /* Add the horizontal scroll bar */
