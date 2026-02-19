@@ -67,9 +67,12 @@ tr td:hover {
 }
 
 .table-image {
-    aspect-ratio: 16 / 9;
-    height: auto; /* Maintain aspect ratio */
-    width: 100%; /* Adjust the width as needed */
+    height: 200px;
+    width: 700px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin: 10px;
+    border: 2px solid $snow-white; /* Adds a white border around the images */
+    border-radius: 8px; /* Adds rounded corners */
 }
 
 
