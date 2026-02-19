@@ -55,14 +55,14 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
         <div class="scroll-container">
             <div class="content-wrapper">
                 <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
-                <img src="./assets/images/food/chicken_noodle.jpg"/>
-                <img src="./assets/images/food/corn.jpg"/>
-                <img src="./assets/images/food/full_plate.jpg"/>
-                <img src="./assets/images/food/corn.jpg"/>
-                <img src="./assets/images/food/jerk_chicken.jpg"/>
-                <img src="./assets/images/food/lamb_chops.jpg"/>
-                <img src="./assets/images/food/rice_platter.jpg"/>
-                <img src="./assets/images/food/steak.jpg"/>
+                <img src="./assets/images/food/chicken_noodle.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/corn.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/full_plate.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/corn.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/jerk_chicken.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/lamb_chops.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/rice_platter.jpg" height="400" width="400"/>
+                <img src="./assets/images/food/steak.jpg" height="400" width="400"/>
             </div>
         </div>
     </span>
