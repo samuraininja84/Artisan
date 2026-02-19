@@ -324,18 +324,17 @@ This class makes the navbar look good on small screens (display the links vertic
 }
 
 .scroll-container {
-  /* Define the container's dimensions */
-  width: 80%;
-  max-width: 600px;
-  height: 150px; /* Optional: define a height for the container */
-  border: 1px solid $snow-white;
-  padding: 10px;
-  overflow-x: auto;   /* Add the horizontal scroll bar */
-  white-space: nowrap;   /* Prevents text from wrapping onto a new line, ensuring horizontal overflow */
+    /* Define the container's dimensions */
+    width: 80%;
+    max-width: 600px;
+    height: 150px; /* Optional: define a height for the container */
+    border: 1px solid $snow-white;
+    padding: 10px;
+    overflow-x: auto;   /* Add the horizontal scroll bar */
+    white-space: nowrap;   /* Prevents text from wrapping onto a new line, ensuring horizontal overflow */
 }
 
 .content-wrapper {
-  display: inline-block;
-  /* Add more specific styling for your content elements */
+    display: inline-block;
 }
 
