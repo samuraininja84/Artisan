@@ -49,6 +49,10 @@ Programmer looking to make the team’s work easier by developing tools to strea
 
 Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.
 
+<!-- Personal Information -->
+
+Other than playing games, I like to spend my free time either skateboarding or playing around with various softwares looking to improve my workflow or find parts to add to existing projects. I'm also an avid cook, often taking part in making large meals for my immediate family (and the extended family at events), as such I keep a few photos of what I've made as seen below.
+
 <!-- Hover Test
 <div class="hover-trigger">
     Hover over me
