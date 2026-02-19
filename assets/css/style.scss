@@ -326,6 +326,7 @@ This class makes the navbar look good on small screens (display the links vertic
 
 .scroll-container {
     /* Define the container's dimensions */
+    background-color: $dark-purple; /* Dark purple background for the scroll container */
     height: auto;
     max-width: auto;
     padding: 10px;

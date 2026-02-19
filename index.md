@@ -62,7 +62,7 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
     </span>
 </div> -->
 
-<!-- Food Pictures -->
+# Food Pictures
 
 <section id="Food" class="page-section"></section>
 
