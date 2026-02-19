@@ -66,6 +66,16 @@ tr td:hover {
     width: 45%; /* Adjust the width as needed */
 }
 
+.food-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin-right: 10px; /* Adds space between images */
+    border: 2px solid $snow-white; /* Adds a white border around the images */
+    border-radius: 8px; /* Adds rounded corners */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
 .transparent-button {
     /* Core styles */
     background: transparent; /* Makes the background transparent */
@@ -351,14 +361,4 @@ This class makes the navbar look good on small screens (display the links vertic
 
 .content-wrapper {
     display: inline-block;
-}
-
-.food-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
-    margin-right: 10px; /* Adds space between images */
-    border: 2px solid $snow-white; /* Adds a white border around the images */
-    border-radius: 8px; /* Adds rounded corners */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
 }
