@@ -326,12 +326,27 @@ This class makes the navbar look good on small screens (display the links vertic
 
 .scroll-container {
     /* Define the container's dimensions */
-    color: $dark-purple; /* Dark purple background for the scroll container */
     height: auto;
     max-width: auto;
     padding: 10px;
     overflow-x: auto;   /* Add the horizontal scroll bar */
     white-space: nowrap;   /* Prevents text from wrapping onto a new line, ensuring horizontal overflow */
+
+    /* For Firefox */
+    scrollbar-width: thin; 
+    scrollbar-color: $blood-red $dark-purple;
+
+    /* For WebKit browsers (like Chrome and Safari) */
+    &::-webkit-scrollbar {
+        height: 8px; /* Set the height of the horizontal scrollbar */
+    }
+    &::-webkit-scrollbar-track {
+        background: $dark-purple; /* Set the background of the scrollbar track */
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $blood-red; /* Set the color of the scrollbar thumb */
+        border-radius: 4px; /* Optional: add rounded corners to the scrollbar thumb */
+    }
 }
 
 .content-wrapper {
