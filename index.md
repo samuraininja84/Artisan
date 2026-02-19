@@ -45,7 +45,7 @@ Programmer looking to make the team’s work easier by developing tools to strea
 
 <!-- DOB & General Location -->
 
-Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll alway be the city I love the most.
+Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll always be the city I love the most.
 
 <!-- Personal Information -->
 
