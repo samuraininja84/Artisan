@@ -49,6 +49,13 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 
 <!-- Food Pictures (?) -->
 
+<div class="hover-trigger">
+    Hover over me
+    <span class="popup-content">
+        This is the popup window content!
+    </span>
+</div>
+
 <!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
 <section id="Games" class="page-section"></section>

@@ -7,6 +7,7 @@
 $dark-purple: #020003;
 $blood-red: #9c0003;
 $snow-white: #fffafa;
+$dark-gray: #2e2e2e;
 
 /*Filter styles*/
 .saturate { filter: saturate(3); }
@@ -292,34 +293,33 @@ This class makes the navbar look good on small screens (display the links vertic
   .sidenav a { font-size: 16px; }
 }
 
-/* The overlay covers the entire screen */
-.popup-overlay {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stays in place relative to the viewport */
-    z-index: 1; /* Sits on top of other content */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
-    /* Adds animation for a smoother appearance */
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s;
+/* Container styles */
+.hover-trigger {
+    position: relative; /* Essential for positioning the popup content relative to this container */
+    display: inline-block; /* Allows the container to wrap the content and not take full width */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
 }
 
-/* The actual popup box */
+/* Popup content styles (hidden by default) */
 .popup-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* Centers the popup vertically and horizontally */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%; /* Adjust width as needed */
-    border-radius: 5px;
-    position: relative;
+    visibility: hidden; /* Hides the element visually */
+    opacity: 0; /* Makes the element transparent */
+    width: 150px;
+    background-color: $dark-gray;
+    color: $snow-white;
     text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute; /* Positions the popup relative to the trigger container */
+    z-index: 1; /* Ensures the popup is on top of other content */
+    bottom: 125%; /* Positions the popup above the text */
+    left: 50%;
+    margin-left: -75px; /* Centers the popup (half of the width) */
+    transition: opacity 0.3s, visibility 0.3s; /* Smooth transition effect */
 }
 
-/* Class to make the popup visible */
-.popup-overlay.active {
-    display: block;
+/* Show the popup when the container is hovered over */
+.hover-trigger:hover .popup-content {
+    visibility: visible; /* Makes the element visible */
+    opacity: 1; /* Makes the element opaque */
 }
