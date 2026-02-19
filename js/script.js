@@ -56,8 +56,8 @@ var originalMainMarginLeft = window.getComputedStyle(mainContent).marginLeft;
 // Define the width of the side navigation
 const size = 250; 
 
-// Media query to check if the screen width is 600px or less
-var smallScreenQuery = window.matchMedia("(max-width: 600px)");
+// Media query to check if the screen width or height is 600px or less
+var smallScreenQuery = window.matchMedia("(max-width: 600px), (max-height: 600px)");
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
@@ -69,7 +69,7 @@ function openNav() {
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
     sideNav.style.width = "0";
-    mainContent.style.marginLeft = originalMainMarginLeft;    
+    if (!smallScreenQuery.matches) mainContent.style.marginLeft = originalMainMarginLeft;    
     document.body.style.backgroundColor = "white";
 }
 
