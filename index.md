@@ -52,7 +52,13 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 <div class="hover-trigger">
     Hover over me
     <span class="popup-content">
-        This is the popup window content!
+        <div class="scroll-container">
+        <div class="content-wrapper">
+            <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
+            <p>This is a long line of text that will trigger a horizontal scroll bar if the container is narrow enough.
+            You can also use a series of inline-block elements like cards or images for a gallery.</p>
+        </div>
+        </div>
     </span>
 </div>
 

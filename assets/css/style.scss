@@ -323,3 +323,19 @@ This class makes the navbar look good on small screens (display the links vertic
     visibility: visible; /* Makes the element visible */
     opacity: 1; /* Makes the element opaque */
 }
+
+.scroll-container {
+  /* Define the container's dimensions */
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid $snow-white;
+  padding: 10px;
+  overflow-x: auto;   /* Add the horizontal scroll bar */
+  white-space: nowrap;   /* Prevents text from wrapping onto a new line, ensuring horizontal overflow */
+}
+
+.content-wrapper {
+  display: inline-block;
+  /* Add more specific styling for your content elements */
+}
+
