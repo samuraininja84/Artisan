@@ -88,6 +88,6 @@ closeButton.addEventListener("click", closeNav);
 
 // Function to toggle the 'active' class on the popup overlay
 function togglePopup() {
-  var popup = document.getElementById("popupOverlay");
-  popup.classList.toggle("active");
+    var popup = document.getElementById("popupOverlay");
+    popup.classList.toggle("active");
 }
