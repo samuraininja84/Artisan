@@ -92,7 +92,7 @@ Other than playing games, I like to spend my free time either skateboarding or p
 
 <!-- Add Hover Pop Ups For Games Like In Steam -->
 
-| [<img src="./assets/images/covers/dwalm-cover.png" height="400" width="700"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" height="400" width="700"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" height="400" width="700"/>](https://samura1n1ja84.itch.io/rewired) |
+| [<img src="./assets/images/covers/dwalm-cover.png" height="300" width="800"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" height="300" width="800"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" height="300" width="800"/>](https://samura1n1ja84.itch.io/rewired) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
 | [Dwalm](https://samura1n1ja84.itch.io/dwalm)     | [Fowl Intent](https://samura1n1ja84.itch.io/fowl-intent) | [Rewired](https://samura1n1ja84.itch.io/rewired) |
 | A narrative-heavy 3D platformer set within a Dream-Intertwined City | A FPS-Platformer But With Chickens | A Journey To Get Your Memories Back From A Compromised Therapist |
@@ -100,7 +100,7 @@ Other than playing games, I like to spend my free time either skateboarding or p
 | English, Spanish, Italian, French, German, Portuguese, Arabic, Korean, Japanese, Chinese | English  | English                                          |
 | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) |
 
-| [<img src="./assets/images/covers/lab_1387-cover.png" alt="Lab 1387" height="400" width="700"/>](https://samura1n1ja84.itch.io/lab-1387) | [<img src="./assets/images/covers/little_red-cover.png" alt="Little Red's Big Adventure" height="400" width="700"/>](https://samura1n1ja84.itch.io/little-reds-big-adventure) | [<img src="./assets/images/covers/insurrection-cover.png" alt="Insurrection" height="400" width="700"/>](https://samura1n1ja84.itch.io/insurrection) |
+| [<img src="./assets/images/covers/lab_1387-cover.png" alt="Lab 1387" height="300" width="800"/>](https://samura1n1ja84.itch.io/lab-1387) | [<img src="./assets/images/covers/little_red-cover.png" alt="Little Red's Big Adventure" height="300" width="800"/>](https://samura1n1ja84.itch.io/little-reds-big-adventure) | [<img src="./assets/images/covers/insurrection-cover.png" alt="Insurrection" height="300" width="800"/>](https://samura1n1ja84.itch.io/insurrection) |
 | :----------------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
 | [Lab 1387](https://samura1n1ja84.itch.io/lab-1387) | [Little Red's Big Adventure](https://samura1n1ja84.itch.io/little-reds-big-adventure) | [Insurrection](https://samura1n1ja84.itch.io/insurrection) |
 | Play As A Scientist Preparing For A Deadly Experiment | A Wave-Based Arena Platformer | Figure out what happened to your Father's Lab and what the City has to lose |
