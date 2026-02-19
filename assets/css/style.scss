@@ -293,13 +293,11 @@ This class makes the navbar look good on small screens (display the links vertic
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav { padding-top: 30px; }
   .sidenav a { font-size: 16px; }
 }
 
 /* On smaller screens, where width is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 450px) {
-  .sidenav { padding-top: 30px; }
   .sidenav a { font-size: 16px; }
 }
 
