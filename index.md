@@ -50,13 +50,19 @@ Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Lo
 <!-- Food Pictures (?) -->
 
 <div class="hover-trigger">
-    Hover over me
+    Food Pictures Here:
     <span class="popup-content">
         <div class="scroll-container">
             <div class="content-wrapper">
                 <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
-                <p>This is a long line of text that will trigger a horizontal scroll bar if the container is narrow enough.
-                You can also use a series of inline-block elements like cards or images for a gallery.</p>
+                <img src="./assets/images/food/chicken_noodle.jpg"/>
+                <img src="./assets/images/food/corn.jpg"/>
+                <img src="./assets/images/food/full_plate.jpg"/>
+                <img src="./assets/images/food/corn.jpg"/>
+                <img src="./assets/images/food/jerk_chicken.jpg"/>
+                <img src="./assets/images/food/lamb_chops.jpg"/>
+                <img src="./assets/images/food/rice_platter.jpg"/>
+                <img src="./assets/images/food/steak.jpg"/>
             </div>
         </div>
     </span>
