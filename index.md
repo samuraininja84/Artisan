@@ -25,17 +25,13 @@ layout: production
     <a href="#Tools" class="nav-link">Tools</a>
 </nav>
 
-<section id="Home" class="page-section">
-    <p id="hiddenText"></p>
-</section>
+<section id="Home" class="page-section"></section>
 
 <!-- Header Image -->
 
 <div><img class= "header-image" src="favicon.ico" alt="Header"></div>
 
-<section id="AboutMe" class="page-section">
-    <p id="hiddenText"></p>
-</section>
+<section id="AboutMe" class="page-section"></section>
 
 # About Me
 
@@ -67,9 +63,7 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 </div> 
 -->
 
-<section id="Food" class="page-section">
-    <p id="hiddenText"></p>
-</section>
+<section id="Food" class="page-section"></section>
 
 # Food
 
@@ -89,8 +83,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 <!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
 <section id="Games" class="page-section"></section>
-    <p id="hiddenText"></p>
-</section>
 
 <!-- Add Pop Ups Tabs For Non-Programming Content -->
 
@@ -116,9 +108,7 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <br>
 
-<section id="Tools" class="page-section">
-    <p id="hiddenText"></p>
-</section>
+<section id="Tools" class="page-section"></section>
 
 # Open-Source Tools
 
