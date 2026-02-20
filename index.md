@@ -112,8 +112,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 # Open-Source Tools
 
-(Also Used In Above Unity Projects)
-
 *   [Thimble : Wrapper For Yarn Spinner For Unity](https://github.com/samuraininja84/Thimble)
 *   [World Shaper : Scene Management Framework For Adventure-based Games](https://github.com/samuraininja84/WorldShaper)
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
