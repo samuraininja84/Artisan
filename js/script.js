@@ -9,15 +9,21 @@ function onScroll() {
 
     // Loop through each section to check if it's in the viewport
     sections.forEach(section => {
-        const sectionTop = section.offsetTop - 60; // Offset for fixed header height
+        // Offset for fixed header height
+        const sectionTop = section.offsetTop - 60;
+
+        // Calculate the bottom position of the section
         const sectionBottom = sectionTop + section.offsetHeight;
 
+        // Check if the current scroll position is within the section
         if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
             // Remove 'active' class from all links
             navLinks.forEach(link => link.classList.remove('active'));
 
             // Add 'active' class to the current section's link
             const currentLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
+
+            // Add 'active' class to the current link if it exists
             if (currentLink) currentLink.classList.add('active');
         }
     });
