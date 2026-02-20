@@ -12,17 +12,16 @@ function onScroll() {
         const sectionTop = section.offsetTop - 60; // Offset for fixed header height
         const sectionBottom = sectionTop + section.offsetHeight;
 
-        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        //if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
             // Remove 'active' class from all links
             navLinks.forEach(link => link.classList.remove('active'));
 
             // Add 'active' class to the current section's link
             const currentLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
-            alert(`You are now viewing the ${section.id} section!`);
             if (currentLink) {
                 currentLink.classList.add('active');
             }
-        }
+        //}
     });
 }
 
