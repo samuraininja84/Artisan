@@ -19,6 +19,7 @@ function onScroll() {
             // Add 'active' class to the current section's link
             const currentLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
             if (currentLink) {
+                alert(`You are now viewing the ${section.id} section!`);
                 currentLink.classList.add('active');
             }
         }
