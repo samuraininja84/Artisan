@@ -394,18 +394,19 @@ This class makes the navbar look good on small screens (display the links vertic
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
-  background-color: transparent;
-  padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    background-color: transparent;
+    padding: 5px;
+    grid-auto-flow: dense; /* Fit items to the their grid area */
 }
 
 .grid-container div {
-  background-color: $blood-red;
-  text-align: center;
-  padding: 10px;
-  font-size: 30px;
+    background-color: $blood-red;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .grid-item1 {
