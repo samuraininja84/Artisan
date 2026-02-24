@@ -123,6 +123,20 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
 *   [Puppeteer : Framework For Taking Control From The Player](https://github.com/samuraininja84/Puppeteer)
 
+<!-- Flexible Tools Display -->
+
+<div>
+    <div>
+        <img src="./assets/images/editors/world-shaper.png">
+        <img src="./assets/images/editors/sanctuary.png">
+        <div>
+            <img src="./assets/images/editors/puppeteer-input-thread.png">
+            <img src="./assets/images/editors/puppeteer-puppet.png">
+        </div>
+    </div>
+    <img src="./assets/images/editors/thimble-story-pinner.png">
+</div>
+
 <!-- Add Pop Ups Tabs For Non-Programming Content -->
 
 <!--
