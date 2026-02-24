@@ -125,6 +125,9 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <!-- Flexible Tools Display -->
 
+<br>
+<br>
+
 # Open-Source Tools - Screenshots
 
 <div class="grid-container">
