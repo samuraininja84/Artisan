@@ -66,10 +66,10 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 </div> 
 -->
 
-<section id="Food" class="page-section"></section>
+<br>
+<br>
 
-<br>
-<br>
+<section id="Food" class="page-section"></section>
 
 # Food
 
@@ -88,12 +88,10 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
+<br>
+<br>
+
 <section id="Games" class="page-section"></section>
-
-<!-- Add Pop Ups Tabs For Non-Programming Content -->
-
-<br>
-<br>
 
 # Games
 
@@ -126,6 +124,8 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 *   [World Shaper : Scene Management Framework For Adventure-based Games](https://github.com/samuraininja84/WorldShaper)
 *   [Sanctuary : Custom Save / Load System For Unity](https://github.com/samuraininja84/UnityPackages/blob/main/Custom/Sanctuary.unitypackage)
 *   [Puppeteer : Framework For Taking Control From The Player](https://github.com/samuraininja84/Puppeteer)
+
+<!-- Add Pop Ups Tabs For Non-Programming Content -->
 
 <!--
 <div class="button-container">
