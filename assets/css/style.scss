@@ -403,7 +403,7 @@ This class makes the navbar look good on small screens (display the links vertic
 }
 
 .grid-container div {
-    background-color: $blood-red;
+    background-color: transparent;
     text-align: center;
     padding: 10px;
     font-size: 30px;
@@ -420,10 +420,6 @@ This class makes the navbar look good on small screens (display the links vertic
 }
 
 .grid-item3 {
-  grid-column: 0 / span 3;
-}
-
-.grid-item4 {
   grid-column: 0 / span 3;
 }
 
