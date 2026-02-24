@@ -54,7 +54,7 @@ tr td:hover {
 button img {
     width: 20px;
     height: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Adds space between the icon and the button text */
+    margin: 5px; /* Adds space around the icon */
     vertical-align: middle; /* Aligns the icon vertically with the text */
 }
 
@@ -127,7 +127,7 @@ button img {
 .transparent-button img {
     width: 20px;
     height: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Adds space between the icon and the button text */
+    margin: 5px; /* Adds space around the icon */
     vertical-align: middle; /* Aligns the icon vertically with the text */
 }
 
