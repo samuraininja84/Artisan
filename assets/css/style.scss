@@ -80,7 +80,9 @@ tr td:hover {
     height: auto; /* Maintain aspect ratio */    
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     margin: 5px; /* Adds space around the icons */
-    text-align: center;
+    text-align: center; /* Centers the icons horizontally */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
 
 .food-image {
