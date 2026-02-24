@@ -76,13 +76,11 @@ tr td:hover {
 }
 
 .icon-image {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     margin: 5px; /* Adds space around the icons */
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .food-image {
