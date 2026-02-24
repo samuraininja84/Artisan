@@ -51,6 +51,13 @@ tr td:hover {
     background-color: $blood-red;
 }
 
+button img {
+    width: 20px;
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adds space between the icon and the button text */
+    vertical-align: middle; /* Aligns the icon vertically with the text */
+}
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -115,6 +122,13 @@ tr td:hover {
 
 .transparent-button:active {
     transform: scale(0.98); /* Makes the button look like it's being pressed */
+}
+
+.transparent-button img {
+    width: 20px;
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adds space between the icon and the button text */
+    vertical-align: middle; /* Aligns the icon vertically with the text */
 }
 
 #hiddenText {
