@@ -75,6 +75,12 @@ tr td:hover {
     border-radius: 8px; /* Adds rounded corners */
 }
 
+.icon-image {
+    height: 15px;
+    width: 15px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin: 5px; /* Adds space around the icons */
+}
 
 .food-image {
     height: 200px;    

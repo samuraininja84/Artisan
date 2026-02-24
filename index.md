@@ -52,6 +52,8 @@ Other than playing games, I like to spend my free time either skateboarding or p
 
 I'm also an avid cook, often taking part in making large meals for my immediate family (and the extended family at events), as such I keep a few photos of what I've made as seen below.
 
+<button onclick="location.href='https://docs.google.com/document/d/1uu77Zjyj0e-dXxh_n9Cppl7ResXB1GKe751mdF637eY/edit?usp=sharing'" type="button" class="transparent-button">Resume<img src="./assets/images/icons/files.png" class="icon-image"></img></button>
+
 <!-- Hover Test
 <div class="hover-trigger">
     Hover over me
