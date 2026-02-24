@@ -42,6 +42,10 @@ layout: production
 
 Programmer looking to make the team’s work easier by developing tools to streamline their workflow and information tracking.
 
+<!-- Specialization -->
+
+My primary focus in my programming is Systems Design. Working on making the framework of games so that other people can come and freely make the ideas that they have in mind and in a way that's easy to modify and scale.
+
 <!-- DOB & General Location -->
 
 Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll always be the city I love the most.
