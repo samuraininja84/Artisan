@@ -125,16 +125,12 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <!-- Flexible Tools Display -->
 
-<div>
-    <div>
-        <img src="./assets/images/editors/world-shaper.png">
-        <img src="./assets/images/editors/sanctuary.png">
-        <div>
-            <img src="./assets/images/editors/puppeteer-input-thread.png">
-            <img src="./assets/images/editors/puppeteer-puppet.png">
-        </div>
-    </div>
-    <img src="./assets/images/editors/thimble-story-pinner.png">
+<div class="container">
+    <div class="item1"><img src="./assets/images/editors/sanctuary.png"></div>
+ 	<div class="item2"><img src="./assets/images/editors/world-shaper.png"></div>   
+    <div class="item3"><img src="./assets/images/editors/puppeteer-input-thread.png"></div>
+    <div class="item4"><img src="./assets/images/editors/puppeteer-puppet.png"></div>  
+    <div class="item5"><img src="./assets/images/editors/thimble-story-pinner.png"></div>
 </div>
 
 <!-- Add Pop Ups Tabs For Non-Programming Content -->
