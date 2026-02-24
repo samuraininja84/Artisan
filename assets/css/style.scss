@@ -397,12 +397,12 @@ This class makes the navbar look good on small screens (display the links vertic
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 5px;
-  background-color: dodgerblue;
+  background-color: transparent;
   padding: 5px;
 }
 
 .grid-container div {
-  background-color: #f1f1f1;
+  background-color: $blood-red;
   text-align: center;
   padding: 10px;
   font-size: 30px;
@@ -419,7 +419,11 @@ This class makes the navbar look good on small screens (display the links vertic
 }
 
 .grid-item3 {
-  grid-column: 1 / span 1;
+  grid-column: 0 / span 3;
+}
+
+.grid-item4 {
+  grid-column: 0 / span 3;
 }
 
 .grid-item5 {
