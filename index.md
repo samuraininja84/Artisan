@@ -33,8 +33,6 @@ layout: production
 
 <section id="AboutMe" class="page-section"></section>
 
-<br>
-
 # About Me
 
 <!-- Artist Statement -->
