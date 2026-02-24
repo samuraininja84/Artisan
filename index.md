@@ -75,7 +75,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <div class="scroll-container">
     <div class="content-wrapper">
-        <!-- Your wide content goes here (e.g., images, a long table, etc.) -->
         <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
         <img src="./assets/images/food/corn.jpg" class="food-image"/>
         <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
@@ -85,8 +84,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
         <img src="./assets/images/food/steak.jpg" class="food-image"/>
     </div>
 </div>
-
-<!-- <div><img class= "scroller" src="favicon.ico" alt="Scroll-Bar"></div> -->
 
 <br>
 <br>
