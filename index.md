@@ -33,6 +33,9 @@ layout: production
 
 <section id="AboutMe" class="page-section"></section>
 
+<br>
+<br>
+
 # About Me
 
 <!-- Artist Statement -->
@@ -65,6 +68,9 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <section id="Food" class="page-section"></section>
 
+<br>
+<br>
+
 # Food
 
 <div class="scroll-container">
@@ -86,6 +92,9 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 <!-- Add Pop Ups Tabs For Non-Programming Content -->
 
+<br>
+<br>
+
 # Games
 
 <!-- Add Hover Pop Ups For Games Like In Steam -->
@@ -106,6 +115,7 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 | English                                          | English                                          | English                                          |
 | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) | ![Windows](./assets/images/platforms/windows.png) |
 
+<br>
 <br>
 
 <section id="Tools" class="page-section"></section>
