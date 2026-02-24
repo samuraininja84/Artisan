@@ -34,7 +34,6 @@ layout: production
 <section id="AboutMe" class="page-section"></section>
 
 <br>
-<br>
 
 # About Me
 
@@ -73,7 +72,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 -->
 
 <br>
-<br>
 
 <section id="Food" class="page-section"></section>
 
@@ -91,7 +89,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
     </div>
 </div>
 
-<br>
 <br>
 
 <section id="Games" class="page-section"></section>
