@@ -93,6 +93,10 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 # Games
 
+<!-- Steam Game Widget -->
+
+<iframe src="https://store.steampowered.com/widget/4484870/" frameborder="0" width="646" height="190"></iframe>
+
 <!-- Add Hover Pop Ups For Games Like In Steam -->
 
 | [<img src="./assets/images/covers/dwalm-cover.png" class="table-image"/>](https://samura1n1ja84.itch.io/dwalm) | [<img src="./assets/images/covers/fowl_intent-cover.png" alt="Fowl Intent" class="table-image"/>](https://samura1n1ja84.itch.io/fowl-intent) | [<img src="./assets/images/covers/rewired-cover.png" alt="Rewired" class="table-image"/>](https://samura1n1ja84.itch.io/rewired) |
