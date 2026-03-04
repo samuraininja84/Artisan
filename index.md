@@ -93,9 +93,9 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
 
 # Games
 
-<!-- Steam Game Widget -->
+<!-- Steam Game Widget 
 
-<iframe src="https://store.steampowered.com/widget/4484870/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/4484870/" frameborder="0" width="646" height="190"></iframe> -->
 
 <!-- Add Hover Pop Ups For Games Like In Steam -->
 
