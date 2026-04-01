@@ -8,9 +8,9 @@ layout: production
         <li><button type="button" id="toggleButton" class="button"><i class="fa fa-bars"></i></button></li>    
         <li><a href="#Home" class="nav-link">Home</a></li>
         <li><a href="#AboutMe" class="nav-link">About Me</a></li>
-        <li><a href="#Food" class="nav-link">Food</a></li>
         <li><a href="#Games" class="nav-link">Games</a></li>
         <li><a href="#Tools" class="nav-link">Tools</a></li>
+        <li><a href="#Food" class="nav-link">Food</a></li>        
     </ul>
 </nav>
 
@@ -20,9 +20,9 @@ layout: production
     <hr>
     <a href="#Home" class="nav-link">Home</a>
     <a href="#AboutMe" class="nav-link">About Me</a>
-    <a href="#Food" class="nav-link">Food</a>
     <a href="#Games" class="nav-link">Games</a>
     <a href="#Tools" class="nav-link">Tools</a>
+    <a href="#Food" class="nav-link">Food</a>    
 </nav>
 
 <section id="Home" class="page-section"></section>
@@ -68,28 +68,6 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
     </span>
 </div> 
 -->
-
-<br>
-
-<section id="Food" class="page-section"></section>
-
-# Food
-
-<div class="scroll-container">
-    <div class="content-wrapper">
-        <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
-        <img src="./assets/images/food/corn.jpg" class="food-image"/>
-        <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
-        <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
-        <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
-        <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
-        <img src="./assets/images/food/steak.jpg" class="food-image"/>
-    </div>
-</div>
-
-<br>
-
-<section id="Games" class="page-section"></section>
 
 # Games
 
@@ -151,3 +129,25 @@ I'm also an avid cook, often taking part in making large meals for my immediate 
     <button onclick="location.href='http://www.example.com'" type="button" class="transparent-button">Open-Source Tools</button> 
 </div>
 -->
+
+<br>
+
+<section id="Food" class="page-section"></section>
+
+# Food
+
+<div class="scroll-container">
+    <div class="content-wrapper">
+        <img src="./assets/images/food/chicken_noodle.jpg" class="food-image"/>
+        <img src="./assets/images/food/corn.jpg" class="food-image"/>
+        <img src="./assets/images/food/full_plate.jpg" class="food-image"/>
+        <img src="./assets/images/food/jerk_chicken.jpg" class="food-image"/>
+        <img src="./assets/images/food/lamb_chops.jpg" class="food-image"/>
+        <img src="./assets/images/food/rice_platter.jpg" class="food-image"/>
+        <img src="./assets/images/food/steak.jpg" class="food-image"/>
+    </div>
+</div>
+
+<br>
+
+<section id="Games" class="page-section"></section>
