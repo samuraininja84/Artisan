@@ -47,11 +47,13 @@ My primary focus in my programming is Systems Design. Working on making the fram
 
 Born in Brooklyn in 2004, raised In Queens Vilage until 2016 and now based in Long Island. I've been a New Yorker for most of my life and it'll always be the city I love the most.
 
+Born in Brooklyn in 2004, raised in Queens Village until 2016, and now based in Long Island. I’ve been a New Yorker for most of my life, and it’ll always be the city I love the most.
+
 <!-- Personal Information -->
 
-Other than playing games, I like to spend my free time either skateboarding or playing around with various softwares looking to improve my workflow or find parts to add to existing projects. 
+Other than playing games, I like to spend my free time either skateboarding or playing around with various software, looking to improve my workflow or find parts to add to existing projects.
 
-I'm also an avid cook, often taking part in making large meals for my immediate family (and the extended family at events), as such I keep a few photos of what I've made as seen below.
+I’m also an avid cook, often helping make large meals for my immediate family (and the extended family at events). As such, I keep a few photos of what I’ve made, as seen below.
 
 <button onclick="location.href='https://docs.google.com/document/d/1uu77Zjyj0e-dXxh_n9Cppl7ResXB1GKe751mdF637eY/edit?usp=sharing'" type="button" class="transparent-button">Resume<img src="./assets/images/icons/files.png" class="icon-image"></button>
 
